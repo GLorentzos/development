@@ -1,0 +1,2663 @@
+{
+    "Present Simple": {
+        "description": "Used for expressing habits, general truths, and routine actions.",
+        "grammar": {
+            "name": "Present Simple",
+            "uses": [
+                "to talk about habits, routines, and things that are true in general",
+                "to describe actions that are happening now",
+                "to express universal truths or facts",
+                "to talk about scheduled events in the near future"
+            ],
+            "structure": [
+               "Subject + Verb ( Base form)",
+               "Subject + do/does + not + Verb (Base form)",
+               "Do/does + Subject + Verb (Base form)"
+        ],
+            "examples": [
+                "I get up at 7:00 am every day.",
+                "She loves eating chocolate cake.",
+                "They live in Paris."
+            ],
+            "tests": {
+                "multipleChoice": [
+                    {
+                        "question": "What do you usually do on Sundays?",
+                        "options": [
+                            "I go to church",
+                            "I goes to church",
+                            "I go to the church",
+                            "I goes to the church"
+                        ],
+                        "answer": "I go to church"
+                    },
+                    {
+                        "question": "What _______ your parents do?",
+                        "options": [
+                            "do",
+                            "does",
+                            "is",
+                            "are"
+                        ],
+                        "answer": "do"
+                    },
+                    {
+                        "question": "Where _______ you live?",
+                        "options": [
+                            "do",
+                            "does",
+                            "live",
+                            "lives"
+                        ],
+                        "answer": "do"
+                    },
+                    {
+                        "question": "What _______ at 8:00 am?",
+                        "options": [
+                            "do you get up",
+                            "does you get up",
+                            "do you gets up",
+                            "does you gets up"
+                        ],
+                        "answer": "do you get up"
+                    },
+                    {
+                        "question": "My sister _______ a doctor.",
+                        "options": [
+                            "is",
+                            "are",
+                            "am",
+                            "be"
+                        ],
+                        "answer": "is"
+                    },
+                    {
+                        "question": "We _______ dinner at 7:00 pm.",
+                        "options": [
+                            "eat",
+                            "eats",
+                            "are eating",
+                            "eatens"
+                        ],
+                        "answer": "eat"
+                    },
+                    {
+                        "question": "Where _______ your brother study?",
+                        "options": [
+                            "do",
+                            "does",
+                            "is",
+                            "are"
+                        ],
+                        "answer": "does"
+                    },
+                    {
+                        "question": "I _______ a book every month.",
+                        "options": [
+                            "read",
+                            "reads",
+                            "am reading",
+                            "reading"
+                        ],
+                        "answer": "read"
+                    },
+                    {
+                        "question": "What _______ you usually do at night?",
+                        "options": [
+                            "do",
+                            "does",
+                            "are",
+                            "is"
+                        ],
+                        "answer": "do"
+                    },
+                    {
+                        "question": "They _______ in a big house.",
+                        "options": [
+                            "live",
+                            "lives",
+                            "are living",
+                            "living"
+                        ],
+                        "answer": "live"
+                    }
+                ],
+                "fillInTheBlank": [
+                    {
+                        "question": "I _______ (play) soccer every Saturday.",
+                        "answer": "play"
+                    },
+                    {
+                        "question": "My mother _______ (cook) dinner every evening.",
+                        "answer": "cooks"
+                    },
+                    {
+                        "question": "They _______ (not/have) a car.",
+                        "answer": "don't have"
+                    },
+                    {
+                        "question": "We _______ (usually/get up) at 7:00 am.",
+                        "answer": "usually get up"
+                    },
+                    {
+                        "question": "She _______ (not/like) broccoli.",
+                        "answer": "doesn't like"
+                    },
+                    {
+                        "question": "He _______ (work) as an engineer.",
+                        "answer": "works"
+                    },
+                    {
+                        "question": "I _______ (usually/study) for three hours every evening.",
+                        "answer": "usually study"
+                    },
+                    {
+                        "question": "They _______ (live) in a small apartment.",
+                        "answer": "live"
+                    },
+                    {
+                        "question": "We _______ (not/have) a pet.",
+                        "answer": "don't have"
+                    },
+                    {
+                        "question": "She _______ (usually/eat) breakfast at 8:00 am.",
+                        "answer": "usually eats"
+                    }
+                ],
+                "dialogueCompletion": [
+                    {
+                        "question": "A: What do you do on Sundays? B: I _______ (usually/watch) TV all day.",
+                        "answer": "usually watch"
+                    },
+                    {
+                        "question": "A: What does your brother do? B: He _______ (work) as a doctor.",
+                        "answer": "works"
+                    },
+                    {
+                        "question": "A: Where do you live? B: I _______ (live) in a small house.",
+                        "answer": "live"
+                    },
+                    {
+                        "question": "A: What do you usually do at night? B: I _______ (usually/read) a book.",
+                        "answer": "usually read"
+                    },
+                    {
+                        "question": "A: What does your sister do? B: She _______ (work) as a teacher.",
+                        "answer": "works"
+                    },
+                    {
+                        "question": "A: Do you like pizza? B: Yes, I _______ (love) pizza.",
+                        "answer": "love"
+                    },
+                    {
+                        "question": "A: How often do you exercise? B: I _______ (usually/exercise) three times a week.",
+                        "answer": "usually exercise"
+                    },
+                    {
+                        "question": "A: What does your father do? B: He _______ (work) as a lawyer.",
+                        "answer": "works"
+                    },
+                    {
+                        "question": "A: Where do you usually go on vacation? B: I _______ (usually/go) to the beach.",
+                        "answer": "usually go"
+                    },
+                    {
+                        "question": "A: What do you usually eat for breakfast? B: I _______ (usually/eat) cereal.",
+                        "answer": "usually eat"
+                    }
+                ]
+            }
+        }
+    },
+    "Present Continuous": {
+        "description": "Describes actions that are happening right now or around the current period.",
+        "grammar": {
+            "tense": "Present Continuous",
+            "uses": [
+                "to talk about actions that are happening now",
+                "to talk about temporary or changing situations",
+                "to talk about trends or current events",
+                "to talk about annoying habits or repeated actions"
+            ],
+            "structure": [
+                "Subject + is/am/are + Verb-ing"
+            ],
+            "examples": [
+                {
+                    "sentence": "I am studying for my exam right now.",
+                    "explanation": " talking about an action happening now"
+                },
+                {
+                    "sentence": "They are building a new hospital in our city.",
+                    "explanation": "talking about a temporary or changing situation"
+                },
+                {
+                    "sentence": "She is always leaving her dirty dishes for me to clean.",
+                    "explanation": "talking about an annoying habit"
+                }
+            ],
+            "tests": {
+                "multipleChoice": [
+                    {
+                        "question": "What ______________ (do) at 8 o'clock tonight?",
+                        "options": [
+                            "do",
+                            "does",
+                            "am doing",
+                            "is doing"
+                        ],
+                        "answer": "am doing"
+                    },
+                    {
+                        "question": "My parents ______________ (not allow) me to go to the party.",
+                        "options": [
+                            "don't allow",
+                            "isn't allowing",
+                            "aren't allowing",
+                            "not allowing"
+                        ],
+                        "answer": "aren't allowing"
+                    },
+                    {
+                        "question": "What ______________ (you, do) when I called you yesterday?",
+                        "options": [
+                            "were you doing",
+                            "did you do",
+                            "are you doing",
+                            "do you do"
+                        ],
+                        "answer": "were you doing"
+                    },
+                    {
+                        "question": "They ______________ (just, finish) their project when the deadline was extended.",
+                        "options": [
+                            "just finished",
+                            "have just finished",
+                            "had just finished",
+                            "just finish"
+                        ],
+                        "answer": "had just finished"
+                    },
+                    {
+                        "question": "We ______________ (never, attend) a concert like that before.",
+                        "options": [
+                            "never attend",
+                            "are never attending",
+                            "have never attended",
+                            "had never attended"
+                        ],
+                        "answer": "had never attended"
+                    },
+                    {
+                        "question": "My sister ______________ (usually, get up) at 7 am.",
+                        "options": [
+                            "usually gets up",
+                            "is usually getting up",
+                            "usually get up",
+                            "gets up usually"
+                        ],
+                        "answer": "usually gets up"
+                    },
+                    {
+                        "question": "What ______________ (you, do) at the moment?",
+                        "options": [
+                            "are you doing",
+                            "do you do",
+                            "does you do",
+                            "did you do"
+                        ],
+                        "answer": "are you doing"
+                    },
+                    {
+                        "question": "They ______________ (currently, work) on a new project.",
+                        "options": [
+                            "currently work",
+                            "are currently working",
+                            "current work",
+                            "work currently"
+                        ],
+                        "answer": "are currently working"
+                    },
+                    {
+                        "question": "We ______________ (not, like) this weather.",
+                        "options": [
+                            "don't like",
+                            "are not liking",
+                            "doesn't like",
+                            "not like"
+                        ],
+                        "answer": "don't like"
+                    },
+                    {
+                        "question": "She ______________ (just, start) her new job last week.",
+                        "options": [
+                            "just started",
+                            "has just started",
+                            "is just starting",
+                            "had just started"
+                        ],
+                        "answer": "had just started"
+                    }
+                ],
+                "fillInTheBlank": [
+                    {
+                        "question": "I ______________ a glass of water because I'm thirsty.",
+                        "answer": "am drinking"
+                    },
+                    {
+                        "question": "My parents ______________ me to clean my room every week.",
+                        "answer": "make"
+                    },
+                    {
+                        "question": "We ______________ a party at our house tonight.",
+                        "answer": "are having"
+                    },
+                    {
+                        "question": "She ______________ her hair because it's too long.",
+                        "answer": "is cutting"
+                    },
+                    {
+                        "question": "They ______________ their holidays in Hawaii every year.",
+                        "answer": "spend"
+                    },
+                    {
+                        "question": "I ______________ my homework while watching TV.",
+                        "answer": "am not doing"
+                    },
+                    {
+                        "question": "We ______________ to the gym three times a week.",
+                        "answer": "go"
+                    },
+                    {
+                        "question": "He ______________ his favorite video game right now.",
+                        "answer": "is playing"
+                    },
+                    {
+                        "question": "They ______________ a new restaurant in our neighborhood.",
+                        "answer": "are opening"
+                    },
+                    {
+                        "question": "She ______________ her favorite book for the third time.",
+                        "answer": "is reading"
+                    }
+                ],
+                "dialogueCompletion": [
+                    {
+                        "question": "A: What are you doing right now? B: I ______________ (write) an email to my boss.",
+                        "answer": "am writing"
+                    },
+                    {
+                        "question": "A: What's happening? B: There ______________ (be) a protest in the city center.",
+                        "answer": "is being"
+                    },
+                    {
+                        "question": "A: Why are you so tired? B: I ______________ (not, sleep) well last night.",
+                        "answer": "didn't sleep"
+                    },
+                    {
+                        "question": "A: What's your sister doing? B: She ______________ (study) for her exam right now.",
+                        "answer": "is studying"
+                    },
+                    {
+                        "question": "A: Do you like this weather? B: No, I ______________ (not, like) it at all.",
+                        "answer": "don't like"
+                    },
+                    {
+                        "question": "A: What are they doing? B: They ______________ (build) a new house next door.",
+                        "answer": "are building"
+                    },
+                    {
+                        "question": "A: Why are you so hungry? B: I ______________ (not, eat) lunch today.",
+                        "answer": "didn't eat"
+                    },
+                    {
+                        "question": "A: What's your brother doing? B: He ______________ (play) soccer with his friends.",
+                        "answer": "is playing"
+                    },
+                    {
+                        "question": "A: Are you free tonight? B: No, I ______________ (go) to a concert.",
+                        "answer": "am going"
+                    },
+                    {
+                        "question": "A: What's happening? B: There ______________ (be) a sale at the mall.",
+                        "answer": "is being"
+                    }
+                ]
+            }
+        }
+    },
+    "Past Simple": {
+        "description": "Used for actions that were completed in the past at a specific time.",
+        "grammar": {
+        "tense": "Past Simple",
+        "uses": [
+            "To talk about completed actions in the past",
+            "To describe past habits",
+            "To show a cause and effect in the past"
+        ],
+        "structure": [
+            
+                "Subject + Verb (2nd form) + Object",
+                "Subject + did not + Verb (base form) + Object",
+               "Did + Subject + Verb (base form) + Object?"
+            
+        ],
+        "examples": [
+            {
+                "sentence": "I went to the movies last night.",
+                "explanation": "Completed action in the past"
+            },
+            {
+                "sentence": "My parents lived in Paris when I was a child.",
+                "explanation": "Past habit"
+            },
+            {
+                "sentence": "I got tired because I didn't sleep well.",
+                "explanation": "Cause and effect in the past"
+            }
+        ],
+        "tests": {
+            "multipleChoice": [
+                {
+                    "question": "What did you __________ (do) yesterday?",
+                    "options": [
+                        "do",
+                        "did",
+                        "doing"
+                    ],
+                    "answer": "do"
+                },
+                {
+                    "question": "She __________ (not/be) at home when I phoned.",
+                    "options": [
+                        "wasn't",
+                        "weren't",
+                        "didn't be"
+                    ],
+                    "answer": "wasn't"
+                },
+                {
+                    "question": "They __________ (play) tennis when it started raining.",
+                    "options": [
+                        "play",
+                        "played",
+                        "were playing"
+                    ],
+                    "answer": "played"
+                },
+                {
+                    "question": "What __________ (you/do) at 8 o'clock last night?",
+                    "options": [
+                        "did you do",
+                        "were you doing",
+                        "do you do"
+                    ],
+                    "answer": "were you doing"
+                },
+                {
+                    "question": "My parents __________ (never/let) me stay out late.",
+                    "options": [
+                        "never let",
+                        "didn't let",
+                        "don't let"
+                    ],
+                    "answer": "never let"
+                },
+                {
+                    "question": "I __________ (not/see) that movie before.",
+                    "options": [
+                        "didn't see",
+                        "haven't seen",
+                        "hadn't seen"
+                    ],
+                    "answer": "hadn't seen"
+                },
+                {
+                    "question": "She __________ (just/finish) her homework when I called.",
+                    "options": [
+                        "just finished",
+                        "had just finished",
+                        "finish"
+                    ],
+                    "answer": "had just finished"
+                },
+                {
+                    "question": "They __________ (not/be) married when they met.",
+                    "options": [
+                        "weren't",
+                        "didn't be",
+                        "aren't"
+                    ],
+                    "answer": "weren't"
+                },
+                {
+                    "question": "What __________ (you/eat) for breakfast yesterday?",
+                    "options": [
+                        "did you eat",
+                        "were you eating",
+                        "ate"
+                    ],
+                    "answer": "did you eat"
+                },
+                {
+                    "question": "My sister __________ (not/pass) her exam last year.",
+                    "options": [
+                        "didn't pass",
+                        "not passed",
+                        "doesn't pass"
+                    ],
+                    "answer": "didn't pass"
+                }
+            ],
+            "fillInTheBlank": [
+                {
+                    "question": "By the time I __________ (get) home, it was midnight.",
+                    "answer": "got"
+                },
+                {
+                    "question": "If I __________ (not/spend) so much money, I would have enough to travel.",
+                    "answer": "hadn't spent"
+                },
+                {
+                    "question": "By the time they __________ (finish) their project, it was already dark.",
+                    "answer": "had finished"
+                },
+                {
+                    "question": "I wish I __________ (not/tell) him about my plans.",
+                    "answer": "hadn't told"
+                },
+                {
+                    "question": "By the time we __________ (arrive), the party had already started.",
+                    "answer": "arrived"
+                },
+                {
+                    "question": "If it __________ (rain), we would have gone to the beach.",
+                    "answer": "had rained"
+                },
+                {
+                    "question": "By the time I __________ (learn) how to drive, I was 18.",
+                    "answer": "had learned"
+                },
+                {
+                    "question": "I wish I __________ (not/forget) my umbrella at home.",
+                    "answer": "hadn't forgotten"
+                },
+                {
+                    "question": "By the time they __________ (eat), they were starving.",
+                    "answer": "had eaten"
+                },
+                {
+                    "question": "If I __________ (not/be) so tired, I would have gone to the gym.",
+                    "answer": "hadn't been"
+                }
+            ],
+            "dialogueCompletion": [
+                {
+                    "question": "A: What did you do yesterday? B: I __________ to the park with my friends.",
+                    "answer": "went"
+                },
+                {
+                    "question": "A: Did you see the movie last night? B: No, I __________ to the cinema.",
+                    "answer": "didn't go"
+                },
+                {
+                    "question": "A: What time did you get up this morning? B: I __________ at 7 o'clock.",
+                    "answer": "got up"
+                },
+                {
+                    "question": "A: Did you like the book? B: Yes, I __________ it last week.",
+                    "answer": "read"
+                },
+                {
+                    "question": "A: Why were you late? B: I __________ traffic on the way here.",
+                    "answer": "got stuck in"
+                },
+                {
+                    "question": "A: What did you do when you __________ the news? B: I was shocked.",
+                    "answer": "heard"
+                },
+                {
+                    "question": "A: Did you visit Paris last year? B: No, I __________ to Rome instead.",
+                    "answer": "went"
+                },
+                {
+                    "question": "A: What did you eat for breakfast? B: I __________ toast and eggs.",
+                    "answer": "had"
+                },
+                {
+                    "question": "A: Did you go to the party? B: No, I __________ at home.",
+                    "answer": "stayed"
+                },
+                {
+                    "question": "A: How did you get to the airport? B: I __________ a taxi.",
+                    "answer": "took"
+                }
+            ]
+        }
+    }
+},
+    "Past Continuous": {
+        "description": "Describes actions that were in progress at a specific moment in the past.",
+        "grammar": {
+        "tense": "Past Continuous",
+        "uses": [
+            "to describe an action that was in progress at a specific point in the past",
+            "to show that one action was in progress when another action started",
+            "to express an action that was interrupted by another action"
+        ],
+        "structure": [
+            "was/were + verb-ing",
+            "was not/were not + verb-ing",
+            "was/were + subject + verb-ing"
+        ],
+        "examples": [
+            {
+                "sentence": "I was studying for my exam at 8 pm last night.",
+                "explanation": "Describing an action that was in progress at a specific point in the past"
+            },
+            {
+                "sentence": "They were having a party when I arrived.",
+                "explanation": "Showing that one action was in progress when another action started"
+            },
+            {
+                "sentence": "I was writing an email when the power went out.",
+                "explanation": "Expressing an action that was interrupted by another action"
+            }
+        ],
+        "tests": {
+            "multipleChoice": [
+                {
+                    "question": "What was I _______ at 10 pm last night?",
+                    "options": [
+                        "studying",
+                        "study",
+                        "was studying",
+                        "am studying"
+                    ],
+                    "answer": "was studying"
+                },
+                {
+                    "question": "They _______ dinner when I arrived.",
+                    "options": [
+                        "had",
+                        "were having",
+                        "has",
+                        "have"
+                    ],
+                    "answer": "were having"
+                },
+                {
+                    "question": "I _______ my homework when the phone rang.",
+                    "options": [
+                        "was doing",
+                        "do",
+                        "did",
+                        "am doing"
+                    ],
+                    "answer": "was doing"
+                },
+                {
+                    "question": "What _______ you _______ at 8 am yesterday?",
+                    "options": [
+                        "were you doing",
+                        "did you do",
+                        "do you do",
+                        "are you doing"
+                    ],
+                    "answer": "were you doing"
+                },
+                {
+                    "question": "She _______ her hair when I saw her.",
+                    "options": [
+                        "was doing",
+                        "did",
+                        "does",
+                        "is doing"
+                    ],
+                    "answer": "was doing"
+                },
+                {
+                    "question": "We _______ a meeting when the fire alarm went off.",
+                    "options": [
+                        "had",
+                        "were having",
+                        "have",
+                        "has"
+                    ],
+                    "answer": "were having"
+                },
+                {
+                    "question": "He _______ his car when it broke down.",
+                    "options": [
+                        "was washing",
+                        "wash",
+                        "washes",
+                        "is washing"
+                    ],
+                    "answer": "was washing"
+                },
+                {
+                    "question": "They _______ a new house when they got married.",
+                    "options": [
+                        "were building",
+                        "build",
+                        "built",
+                        "are building"
+                    ],
+                    "answer": "were building"
+                },
+                {
+                    "question": "What _______ you _______ at 5 pm yesterday?",
+                    "options": [
+                        "were you doing",
+                        "did you do",
+                        "do you do",
+                        "are you doing"
+                    ],
+                    "answer": "were you doing"
+                },
+                {
+                    "question": "I _______ my project when my friend came over.",
+                    "options": [
+                        "was working",
+                        "work",
+                        "works",
+                        "am working"
+                    ],
+                    "answer": "was working"
+                }
+            ],
+            "fillInTheBlank": [
+                {
+                    "question": "I ____________________ (study) for my exam when my mother called.",
+                    "answer": "was studying"
+                },
+                {
+                    "question": "They ____________________ (have) a party when I arrived.",
+                    "answer": "were having"
+                },
+                {
+                    "question": "I ____________________ (write) an email when the power went out.",
+                    "answer": "was writing"
+                },
+                {
+                    "question": "What ____________________ (you, do) at 10 pm last night?",
+                    "answer": "were you doing"
+                },
+                {
+                    "question": "She ____________________ (do) her homework when I saw her.",
+                    "answer": "was doing"
+                },
+                {
+                    "question": "We ____________________ (have) a meeting when the fire alarm went off.",
+                    "answer": "were having"
+                },
+                {
+                    "question": "He ____________________ (wash) his car when it broke down.",
+                    "answer": "was washing"
+                },
+                {
+                    "question": "They ____________________ (build) a new house when they got married.",
+                    "answer": "were building"
+                },
+                {
+                    "question": "What ____________________ (you, do) at 5 pm yesterday?",
+                    "answer": "were you doing"
+                },
+                {
+                    "question": "I ____________________ (work) on my project when my friend came over.",
+                    "answer": "was working"
+                }
+            ],
+            "dialogueCompletion": [
+                {
+                    "question": "A: What were you doing at 10 pm last night? B: I ____________________.",
+                    "answer": "was studying for my exam"
+                },
+                {
+                    "question": "A: How did you get to know each other? B: We ____________________.",
+                    "answer": "were having a class together"
+                },
+                {
+                    "question": "A: Why did you stop playing the game? B: I ____________________.",
+                    "answer": "was getting tired"
+                },
+                {
+                    "question": "A: What were you doing when the power went out? B: I ____________________.",
+                    "answer": "was writing an email"
+                },
+                {
+                    "question": "A: What were you doing at 5 pm yesterday? B: I ____________________.",
+                    "answer": "was watching TV"
+                },
+                {
+                    "question": "A: How did you learn how to play the guitar? B: I ____________________.",
+                    "answer": "was taking lessons"
+                },
+                {
+                    "question": "A: Why did you stop working on your project? B: I ____________________.",
+                    "answer": "was feeling frustrated"
+                },
+                {
+                    "question": "A: What were you doing when the phone rang? B: I ____________________.",
+                    "answer": "was doing my homework"
+                },
+                {
+                    "question": "A: What were you doing at 8 am yesterday? B: I ____________________.",
+                    "answer": "was having breakfast"
+                },
+                {
+                    "question": "A: How did you meet your friend? B: We ____________________.",
+                    "answer": "were studying in the same class"
+                }
+            ]
+        }
+    }
+},
+
+    "Future Simple": {
+        "description": "Used for expressing promises, predictions, and spontaneous decisions about the future.",
+        "grammar": {
+            "name": "Future Simple",
+            "description": "Used to talk about actions that will happen in the future.",
+            "uses": [
+                "To talk about future plans or intentions",
+                "To predict future events or trends",
+                "To express uncertainty or doubt about the future"
+            ],
+        "structure": [
+        "Subject + will + base form of the verb"
+        ],
+        "examples": [
+            {
+                "sentence": "I will attend the meeting tomorrow.",
+                "explanation": "I plan to attend the meeting tomorrow."
+            },
+            {
+                "sentence": "It will rain tomorrow.",
+                "explanation": "I predict that it will rain tomorrow."
+            },
+            {
+                "sentence": "She will probably pass the exam.",
+                "explanation": "I think she will probably pass the exam, but I'm not sure."
+            }
+        ],
+        "tests": {
+            "multipleChoice": [
+                {
+                    "question": "What will you do tomorrow?",
+                    "options": [
+                        "I go to the park",
+                        "I will go to the park",
+                        "I goes to the park",
+                        "I going to the park"
+                    ],
+                    "answer": "I will go to the park"
+                },
+                {
+                    "question": "By next year, I ______________ my degree.",
+                    "options": [
+                        "will finish",
+                        "finish",
+                        "will have finished",
+                        "will be finishing"
+                    ],
+                    "answer": "will have finished"
+                },
+                {
+                    "question": "They ______________ their new house next month.",
+                    "options": [
+                        "will move into",
+                        "move into",
+                        "will be moving into",
+                        "are moving into"
+                    ],
+                    "answer": "will move into"
+                },
+                {
+                    "question": "If it ______________ cold, we will go skiing.",
+                    "options": [
+                        "will be",
+                        "is",
+                        "was",
+                        "is being"
+                    ],
+                    "answer": "is"
+                },
+                {
+                    "question": "By the time I ______________ my homework, it will be midnight.",
+                    "options": [
+                        "will finish",
+                        "finish",
+                        "will have finished",
+                        "will be finishing"
+                    ],
+                    "answer": "will have finished"
+                },
+                {
+                    "question": "I think it ______________ snow this winter.",
+                    "options": [
+                        "will",
+                        "would",
+                        "is going to",
+                        "can"
+                    ],
+                    "answer": "will"
+                },
+                {
+                    "question": "She ______________ her new job next week.",
+                    "options": [
+                        "will start",
+                        "starts",
+                        "will be starting",
+                        "is starting"
+                    ],
+                    "answer": "will start"
+                },
+                {
+                    "question": "By next year, they ______________ their business for five years.",
+                    "options": [
+                        "will have",
+                        "have",
+                        "will be having",
+                        "had"
+                    ],
+                    "answer": "will have"
+                },
+                {
+                    "question": "If it ______________ sunny, we will go to the beach.",
+                    "options": [
+                        "will be",
+                        "is",
+                        "was",
+                        "is being"
+                    ],
+                    "answer": "will be"
+                },
+                {
+                    "question": "I ______________ my driving test next month.",
+                    "options": [
+                        "will take",
+                        "take",
+                        "will be taking",
+                        "am taking"
+                    ],
+                    "answer": "will take"
+                }
+            ],
+            "fillInTheBlank": [
+                {
+                    "question": "By the time I ______________ my degree, I will be 25 years old.",
+                    "answer": "will have finished"
+                },
+                {
+                    "question": "If it ______________ cold, we will go skiing tomorrow.",
+                    "answer": "will be"
+                },
+                {
+                    "question": "I ______________ my new phone next week.",
+                    "answer": "will get"
+                },
+                {
+                    "question": "She ______________ her new job next month.",
+                    "answer": "will start"
+                },
+                {
+                    "question": "They ______________ their new house next year.",
+                    "answer": "will move into"
+                },
+                {
+                    "question": "I think it ______________ snow this winter.",
+                    "answer": "will"
+                },
+                {
+                    "question": "By next year, I ______________ my business for 10 years.",
+                    "answer": "will have had"
+                },
+                {
+                    "question": "If it ______________ sunny, we will go to the beach.",
+                    "answer": "will be"
+                },
+                {
+                    "question": "I ______________ my driving test next month.",
+                    "answer": "will take"
+                },
+                {
+                    "question": "They ______________ their wedding next summer.",
+                    "answer": "will have"
+                }
+            ],
+            "dialogueCompletion": [
+                {
+                    "question": "A: What will you do tomorrow? B: ______________",
+                    "options": [
+                        "I go to the park",
+                        "I will go to the park",
+                        "I goes to the park",
+                        "I going to the park"
+                    ],
+                    "answer": "I will go to the park"
+                },
+                {
+                    "question": "A: By next year, I ______________ my degree. B: Congratulations!",
+                    "options": [
+                        "will finish",
+                        "finish",
+                        "will have finished",
+                        "will be finishing"
+                    ],
+                    "answer": "will have finished"
+                },
+                {
+                    "question": "A: They ______________ their new house next month. B: That's great!",
+                    "options": [
+                        "will move into",
+                        "move into",
+                        "will be moving into",
+                        "are moving into"
+                    ],
+                    "answer": "will move into"
+                },
+                {
+                    "question": "A: If it ______________ cold, we will go skiing. B: I love skiing!",
+                    "options": [
+                        "will be",
+                        "is",
+                        "was",
+                        "is being"
+                    ],
+                    "answer": "is"
+                },
+                {
+                    "question": "A: By the time I ______________ my homework, it will be midnight. B: That's too late!",
+                    "options": [
+                        "will finish",
+                        "finish",
+                        "will have finished",
+                        "will be finishing"
+                    ],
+                    "answer": "finish"
+                },
+                {
+                    "question": "A: I think it ______________ snow this winter. B: I hope so!",
+                    "options": [
+                        "will",
+                        "would",
+                        "is going to",
+                        "can"
+                    ],
+                    "answer": "will"
+                },
+                {
+                    "question": "A: She ______________ her new job next week. B: Good luck!",
+                    "options": [
+                        "will start",
+                        "starts",
+                        "will be starting",
+                        "is starting"
+                    ],
+                    "answer": "will start"
+                },
+                {
+                    "question": "A: By next year, they ______________ their business for five years. B: That's amazing!",
+                    "options": [
+                        "will have",
+                        "have",
+                        "will be having",
+                        "had"
+                    ],
+                    "answer": "will have"
+                },
+                {
+                    "question": "A: If it ______________ sunny, we will go to the beach. B: Sounds like fun!",
+                    "options": [
+                        "will be",
+                        "is",
+                        "was",
+                        "is being"
+                    ],
+                    "answer": "is"
+                },
+                {
+                    "question": "A: I ______________ my driving test next month. B: Good luck!",
+                    "options": [
+                        "will take",
+                        "take",
+                        "will be taking",
+                        "am taking"
+                    ],
+                    "answer": "will take"
+                }
+            ]
+        }
+    }
+},
+    "Future Continuous": {
+        "description": "Describes actions that will be in progress at a specific time in the future.",
+        "grammar": {
+        "Tense": "Future Continuous",
+        "Description": "The Future Continuous tense is used to describe an action that will be in progress at a specific point in the future.",
+        "uses": [
+            "To describe an action that will be in progress at a specific point in the future",
+            "To show that an action will continue up to a specific point in the future",
+            "To express an action that is planned or scheduled for a specific time in the future",
+            "To talk about an action that will be interrupted by another action"
+        ],
+        "structure": [
+            "Subject + will be + Verb-ing",
+            "Subject + will not be + Verb-ing",
+            "Will + subject + be + Verb-ing"
+        ],
+        "examples": [
+            {
+                "sentence": "I will be studying for my exam at 8pm tonight.",
+                "explanation": "Here, the speaker is describing an action that will be in progress at a specific point in the future (8pm tonight)."
+            },
+            {
+                "sentence": "They will be living in Paris by next year.",
+                "explanation": "Here, the speaker is describing an action that will continue up to a specific point in the future (next year)."
+            },
+            {
+                "sentence": "We will be attending the conference at 2pm tomorrow.",
+                "explanation": "Here, the speaker is expressing an action that is planned or scheduled for a specific time in the future (2pm tomorrow)."
+            }
+        ],
+        "tests": {
+            "multipleChoice": [
+                {
+                    "question": "What will you be doing at 9am tomorrow?",
+                    "options": [
+                        "I will study",
+                        "I will be studying",
+                        "I study",
+                        "I will study"
+                    ],
+                    "answer": "I will be studying"
+                },
+                {
+                    "question": "At 10pm, ____________________ my homework.",
+                    "options": [
+                        "I will do",
+                        "I will be doing",
+                        "I do",
+                        "I will do"
+                    ],
+                    "answer": "I will be doing"
+                },
+                {
+                    "question": "By next year, ____________________ English for three years.",
+                    "options": [
+                        "I will study",
+                        "I will be studying",
+                        "I study",
+                        "I studied"
+                    ],
+                    "answer": "I will be studying"
+                },
+                {
+                    "question": "At 8pm, ____________________ dinner.",
+                    "options": [
+                        "We will eat",
+                        "We will be eating",
+                        "We eat",
+                        "We will eat"
+                    ],
+                    "answer": "We will be eating"
+                },
+                {
+                    "question": "What will you be doing at 7pm tonight?",
+                    "options": [
+                        "I will watch TV",
+                        "I will be watching TV",
+                        "I watch TV",
+                        "I will watch TV"
+                    ],
+                    "answer": "I will be watching TV"
+                },
+                {
+                    "question": "By the time I arrive, ____________________ their party for an hour.",
+                    "options": [
+                        "they will start",
+                        "they will be starting",
+                        "they start",
+                        "they will have started"
+                    ],
+                    "answer": "they will have started"
+                },
+                {
+                    "question": "At 9am, ____________________ an important meeting.",
+                    "options": [
+                        "I will attend",
+                        "I will be attending",
+                        "I attend",
+                        "I will attend"
+                    ],
+                    "answer": "I will be attending"
+                },
+                {
+                    "question": "What will you be doing at 10am tomorrow?",
+                    "options": [
+                        "I will go to the gym",
+                        "I will be going to the gym",
+                        "I go to the gym",
+                        "I will go to the gym"
+                    ],
+                    "answer": "I will be going to the gym"
+                },
+                {
+                    "question": "At 6pm, ____________________ my favorite TV show.",
+                    "options": [
+                        "I will watch",
+                        "I will be watching",
+                        "I watch",
+                        "I will watch"
+                    ],
+                    "answer": "I will be watching"
+                },
+                {
+                    "question": "By next year, ____________________ my degree.",
+                    "options": [
+                        "I will finish",
+                        "I will be finishing",
+                        "I finish",
+                        "I will finish"
+                    ],
+                    "answer": "I will be finishing"
+                }
+            ],
+            "fillInTheBlank": [
+                {
+                    "question": "By next year, I ____________________ English for three years.",
+                    "answer": "will be studying"
+                },
+                {
+                    "question": "At 8pm, we ____________________ dinner.",
+                    "answer": "will be eating"
+                },
+                {
+                    "question": "What will you be doing at 7pm tonight? I ____________________ a movie.",
+                    "answer": "will be watching"
+                },
+                {
+                    "question": "At 10am, they ____________________ a meeting.",
+                    "answer": "will be having"
+                },
+                {
+                    "question": "By the time I arrive, they ____________________ their party for an hour.",
+                    "answer": "will have been having"
+                },
+                {
+                    "question": "At 9am, I ____________________ an exam.",
+                    "answer": "will be taking"
+                },
+                {
+                    "question": "What will you be doing at 10am tomorrow? I ____________________ my homework.",
+                    "answer": "will be doing"
+                },
+                {
+                    "question": "At 6pm, they ____________________ a concert.",
+                    "answer": "will be attending"
+                },
+                {
+                    "question": "By next year, I ____________________ my master's degree.",
+                    "answer": "will be studying for"
+                },
+                {
+                    "question": "At 8am, we ____________________ breakfast.",
+                    "answer": "will be having"
+                }
+            ],
+            "dialogueCompletion": [
+                {
+                    "question": "A: What will you be doing at 7pm tonight? B: I ____________________ a movie.",
+                    "answer": "will be watching"
+                },
+                {
+                    "question": "A: At 10am, what will you be doing? B: I ____________________ a meeting.",
+                    "answer": "will be attending"
+                },
+                {
+                    "question": "A: What will you be doing at 9am tomorrow? B: I ____________________ an exam.",
+                    "answer": "will be taking"
+                },
+                {
+                    "question": "A: By next year, what will you be doing? B: I ____________________ my degree.",
+                    "answer": "will be studying for"
+                },
+                {
+                    "question": "A: At 8pm, what will you be doing? B: I ____________________ dinner.",
+                    "answer": "will be eating"
+                },
+                {
+                    "question": "A: What will you be doing at 6pm tonight? B: I ____________________ a concert.",
+                    "answer": "will be attending"
+                },
+                {
+                    "question": "A: By next year, what will you be doing? B: I ____________________ English for three years.",
+                    "answer": "will be studying"
+                },
+                {
+                    "question": "A: At 10am, what will you be doing? B: I ____________________ my homework.",
+                    "answer": "will be doing"
+                },
+                {
+                    "question": "A: What will you be doing at 9am tomorrow? B: I ____________________ breakfast.",
+                    "answer": "will be having"
+                },
+                {
+                    "question": "A: By next year, what will you be doing? B: I ____________________ my master's degree.",
+                    "answer": "will be studying for"
+                }
+            ]
+        }
+    }
+},
+    "Future Perfect": {
+        "description": "Indicates that an action will have been completed before a specific future time.",
+        "grammar": {
+            "name": "Future Perfect",
+            "description": "The Future Perfect tense is used to describe an action that will be completed at a specific point in the future.",
+            "uses": [
+                "To describe an action that will be finished at a specific point in the future.",
+                "To show that one action will be completed before another action starts in the future.",
+                "To express completion of an action by a specific time in the future."
+            ],
+            "structure": [
+             "Subject + will have + past participle",
+               "Subject + will not have + past participle",
+                "Will + Subject + have + past participle"
+            ],
+            "examples": [
+                {
+                    "sentence": "I will have finished my homework by then.",
+                    "explanation": "I will complete my homework by a specific point in the future."
+                },
+                {
+                    "sentence": "They will have learned the language by the time they graduate.",
+                    "explanation": "They will complete learning the language before they graduate."
+                },
+                {
+                    "sentence": "She will have saved enough money by next year.",
+                    "explanation": "She will have completed saving enough money by next year."
+                }
+            ],
+            "tests": {
+                "multipleChoice": [
+                    {
+                        "question": "By next year, I ____________________ my degree.",
+                        "options": [
+                            "will have finished",
+                            "will finish",
+                            "finish",
+                            "have finished"
+                        ],
+                        "answer": "will have finished"
+                    },
+                    {
+                        "question": "By the time I arrive, they ____________________ their project.",
+                        "options": [
+                            "will have finished",
+                            "will finish",
+                            "finish",
+                            "have finished"
+                        ],
+                        "answer": "will have finished"
+                    },
+                    {
+                        "question": "By 2025, humans ____________________ to Mars.",
+                        "options": [
+                            "will have traveled",
+                            "will travel",
+                            "travel",
+                            "have traveled"
+                        ],
+                        "answer": "will have traveled"
+                    },
+                    {
+                        "question": "By the end of the year, I ____________________ 10 books.",
+                        "options": [
+                            "will have read",
+                            "will read",
+                            "read",
+                            "have read"
+                        ],
+                        "answer": "will have read"
+                    },
+                    {
+                        "question": "By 2030, the company ____________________ 10 years in business.",
+                        "options": [
+                            "will have been",
+                            "will be",
+                            "is",
+                            "has been"
+                        ],
+                        "answer": "will have been"
+                    },
+                    {
+                        "question": "By the time I graduate, I ____________________ my thesis.",
+                        "options": [
+                            "will have written",
+                            "will write",
+                            "write",
+                            "have written"
+                        ],
+                        "answer": "will have written"
+                    },
+                    {
+                        "question": "By next month, I ____________________ my driving test.",
+                        "options": [
+                            "will have passed",
+                            "will pass",
+                            "pass",
+                            "have passed"
+                        ],
+                        "answer": "will have passed"
+                    },
+                    {
+                        "question": "By the end of the decade, we ____________________ a new house.",
+                        "options": [
+                            "will have built",
+                            "will build",
+                            "build",
+                            "have built"
+                        ],
+                        "answer": "will have built"
+                    },
+                    {
+                        "question": "By 2027, I ____________________ my Master's degree.",
+                        "options": [
+                            "will have finished",
+                            "will finish",
+                            "finish",
+                            "have finished"
+                        ],
+                        "answer": "will have finished"
+                    },
+                    {
+                        "question": "By the time I retire, I ____________________ 40 years of service.",
+                        "options": [
+                            "will have completed",
+                            "will complete",
+                            "complete",
+                            "have completed"
+                        ],
+                        "answer": "will have completed"
+                    }
+                ],
+                "fillInTheBlank": [
+                    {
+                        "question": "By next year, I ____________________ my Ph.D.",
+                        "answer": "will have finished"
+                    },
+                    {
+                        "question": "By the time I arrive, they ____________________ their party.",
+                        "answer": "will have finished"
+                    },
+                    {
+                        "question": "By 2025, humans ____________________ to the moon 10 times.",
+                        "answer": "will have traveled"
+                    },
+                    {
+                        "question": "By the end of the year, I ____________________ 500 hours of community service.",
+                        "answer": "will have completed"
+                    },
+                    {
+                        "question": "By 2030, the company ____________________ 15 years in business.",
+                        "answer": "will have been"
+                    },
+                    {
+                        "question": "By the time I graduate, I ____________________ my thesis.",
+                        "answer": "will have written"
+                    },
+                    {
+                        "question": "By next month, I ____________________ my driving test.",
+                        "answer": "will have passed"
+                    },
+                    {
+                        "question": "By the end of the decade, we ____________________ a new house.",
+                        "answer": "will have built"
+                    },
+                    {
+                        "question": "By 2027, I ____________________ my Master's degree.",
+                        "answer": "will have finished"
+                    },
+                    {
+                        "question": "By the time I retire, I ____________________ 40 years of service.",
+                        "answer": "will have completed"
+                    }
+                ],
+                "dialogueCompletion": [
+                    {
+                        "question": "A: By next year, I will have ____________________ my degree. B: Congratulations!",
+                        "answer": "finished"
+                    },
+                    {
+                        "question": "A: By the time I arrive, they will have ____________________ their party. B: I'm excited!",
+                        "answer": "finished"
+                    },
+                    {
+                        "question": "A: By 2025, humans will have ____________________ to Mars. B: That's amazing!",
+                        "answer": "traveled"
+                    },
+                    {
+                        "question": "A: By the end of the year, I will have ____________________ 10 books. B: You're a fast reader!",
+                        "answer": "read"
+                    },
+                    {
+                        "question": "A: By 2030, the company will have ____________________ 10 years in business. B: Congratulations!",
+                        "answer": "been"
+                    },
+                    {
+                        "question": "A: By the time I graduate, I will have ____________________ my thesis. B: Good luck!",
+                        "answer": "written"
+                    },
+                    {
+                        "question": "A: By next month, I will have ____________________ my driving test. B: You'll do great!",
+                        "answer": "passed"
+                    },
+                    {
+                        "question": "A: By the end of the decade, we will have ____________________ a new house. B: That's exciting!",
+                        "answer": "built"
+                    },
+                    {
+                        "question": "A: By 2027, I will have ____________________ my Master's degree. B: Congratulations!",
+                        "answer": "finished"
+                    },
+                    {
+                        "question": "A: By the time I retire, I will have ____________________ 40 years of service. B: That's impressive!",
+                        "answer": "completed"
+                    }
+                ]
+            }
+        }
+    },
+    "Present Perfect": {
+        "description": "It describes actions completed in the past or that began in the past and are still ongoing.",
+        "grammar": {
+        "tense": "Present Perfect",
+        "uses": [
+            "To show that an action started in the past and continues up to the present",
+            "To show that an action happened at an unspecified time in the past and has a connection to the present",
+            "To show that an action has a result in the present"
+        ],
+        "structure": [
+           "Has/have + past participle"
+           ],
+        "examples": [
+            {
+                "sentence": "I have lived in Paris for three years.",
+                "explanation": "The action of living in Paris started in the past and continues up to the present."
+            },
+            {
+                "sentence": "She has just finished her homework.",
+                "explanation": "The action of finishing homework happened at an unspecified time in the past and has a connection to the present."
+            },
+            {
+                "sentence": "They have never been to the United States.",
+                "explanation": "The action of going to the United States has a result in the present (they have not been there yet)."
+            }
+        ],
+        "tests": {
+            "multipleChoice": [
+                {
+                    "question": "I ______________ to the gym three times this week.",
+                    "options": [
+                        "have gone",
+                        "go",
+                        "have been going"
+                    ],
+                    "answer": "have gone"
+                },
+                {
+                    "question": "She ______________ her new job for three months.",
+                    "options": [
+                        "has been doing",
+                        "does",
+                        "has done"
+                    ],
+                    "answer": "has been doing"
+                },
+                {
+                    "question": "They ______________ to the party last night.",
+                    "options": [
+                        "have gone",
+                        "went",
+                        "go"
+                    ],
+                    "answer": "went"
+                },
+                {
+                    "question": "We ______________ our homework yet.",
+                    "options": [
+                        "haven't done",
+                        "don't do",
+                        "haven't been doing"
+                    ],
+                    "answer": "haven't done"
+                },
+                {
+                    "question": "It ______________ since morning.",
+                    "options": [
+                        "has been raining",
+                        "raining",
+                        "rains"
+                    ],
+                    "answer": "has been raining"
+                },
+                {
+                    "question": "I ______________ to the store yet.",
+                    "options": [
+                        "haven't been",
+                        "am not going",
+                        "haven't gone"
+                    ],
+                    "answer": "haven't been"
+                },
+                {
+                    "question": "They ______________ their car for five years.",
+                    "options": [
+                        "have owned",
+                        "own",
+                        "had owned"
+                    ],
+                    "answer": "have owned"
+                },
+                {
+                    "question": "We ______________ the movie twice.",
+                    "options": [
+                        "have seen",
+                        "see",
+                        "saw"
+                    ],
+                    "answer": "have seen"
+                },
+                {
+                    "question": "She ______________ her breakfast yet.",
+                    "options": [
+                        "hasn't had",
+                        "isn't having",
+                        "didn't have"
+                    ],
+                    "answer": "hasn't had"
+                },
+                {
+                    "question": "It ______________ 10 years since I graduated from college.",
+                    "options": [
+                        "is",
+                        "has been",
+                        "was"
+                    ],
+                    "answer": "has been"
+                }
+            ],
+            "fillInTheBlank": [
+                {
+                    "question": "I __________________ to the gym three times this week.",
+                    "answer": "have gone"
+                },
+                {
+                    "question": "She __________________ her new job for three months.",
+                    "answer": "has been doing"
+                },
+                {
+                    "question": "They __________________ to the party last night.",
+                    "answer": "went"
+                },
+                {
+                    "question": "We __________________ our homework yet.",
+                    "answer": "haven't done"
+                },
+                {
+                    "question": "It __________________ since morning.",
+                    "answer": "has been raining"
+                },
+                {
+                    "question": "I __________________ to the store yet.",
+                    "answer": "haven't been"
+                },
+                {
+                    "question": "They __________________ their car for five years.",
+                    "answer": "have owned"
+                },
+                {
+                    "question": "We __________________ the movie twice.",
+                    "answer": "have seen"
+                },
+                {
+                    "question": "She __________________ her breakfast yet.",
+                    "answer": "hasn't had"
+                },
+                {
+                    "question": "It __________________ 10 years since I graduated from college.",
+                    "answer": "has been"
+                }
+            ],
+            "dialogueCompletion": [
+                {
+                    "question": "A: How long have you been studying English? B: I __________________ English for five years.",
+                    "options": [
+                        "have studied",
+                        "study",
+                        "am studying"
+                    ],
+                    "answer": "have studied"
+                },
+                {
+                    "question": "A: What have you done today? B: I __________________ my homework and now I'm watching TV.",
+                    "options": [
+                        "have done",
+                        "do",
+                        "am doing"
+                    ],
+                    "answer": "have done"
+                },
+                {
+                    "question": "A: Have you ever been to Paris? B: Yes, I __________________ there twice.",
+                    "options": [
+                        "have gone",
+                        "go",
+                        "went"
+                    ],
+                    "answer": "have gone"
+                },
+                {
+                    "question": "A: How long has it taken you to finish your project? B: I __________________ it for three months.",
+                    "options": [
+                        "have been doing",
+                        "do",
+                        "did"
+                    ],
+                    "answer": "have been doing"
+                },
+                {
+                    "question": "A: What have you eaten for lunch? B: I __________________ a sandwich and a salad.",
+                    "options": [
+                        "have eaten",
+                        "eat",
+                        "am eating"
+                    ],
+                    "answer": "have eaten"
+                },
+                {
+                    "question": "A: Have you seen the new movie? B: Yes, I __________________ it twice.",
+                    "options": [
+                        "have seen",
+                        "see",
+                        "saw"
+                    ],
+                    "answer": "have seen"
+                },
+                {
+                    "question": "A: How long have you known your friend? B: I __________________ him since childhood.",
+                    "options": [
+                        "have known",
+                        "know",
+                        "knew"
+                    ],
+                    "answer": "have known"
+                },
+                {
+                    "question": "A: What have you been doing since morning? B: I __________________ my homework and now I'm tired.",
+                    "options": [
+                        "have been doing",
+                        "do",
+                        "did"
+                    ],
+                    "answer": "have been doing"
+                },
+                {
+                    "question": "A: Have you ever traveled to Asia? B: Yes, I __________________ to China twice.",
+                    "options": [
+                        "have gone",
+                        "go",
+                        "went"
+                    ],
+                    "answer": "have gone"
+                },
+                {
+                    "question": "A: How long has your sister been studying medicine? B: She __________________ medicine for five years.",
+                    "options": [
+                        "has been studying",
+                        "studies",
+                        "studied"
+                    ],
+                    "answer": "has been studying"
+                }
+            ]
+        }
+    }
+},
+    "Past Perfect": {
+        "description": "Shows that an action was completed before another action occurred in the past.",
+        "grammar": {
+        "Tense": "Past Perfect",
+        "uses": [
+            "To show that one action was completed before another action in the past",
+            "To show that one action had a connection to another action in the past",
+            "To show that one action was the cause of another action in the past"
+        ],
+        "structure": [
+            "Had + Past Participle (e.g., I had eaten)",
+            "Had not + Past Participle (e.g., I had not eaten)"
+        ],
+        "examples": [
+            {
+                "sentence": "I had eaten lunch before I went to the park.",
+                "explanation": "The action of eating lunch was completed before going to the park."
+            },
+            {
+                "sentence": "She had studied English for three years before she moved to the US.",
+                "explanation": "The action of studying English was completed before moving to the US."
+            },
+            {
+                "sentence": "They had never been to Paris before they went last year.",
+                "explanation": "The action of never having been to Paris was completed before going last year."
+            }
+        ],
+        "Tests": {
+            "multipleChoice": [
+                {
+                    "question": "I __________ my homework before I went to bed.",
+                    "options": [
+                        "had done",
+                        "do",
+                        "did",
+                        "have done"
+                    ],
+                    "answer": "had done"
+                },
+                {
+                    "question": "By the time I arrived, they __________ their dinner.",
+                    "options": [
+                        "have eaten",
+                        "had eaten",
+                        "eat",
+                        "ate"
+                    ],
+                    "answer": "had eaten"
+                },
+                {
+                    "question": "If I __________ more money, I would have bought the car.",
+                    "options": [
+                        "had had",
+                        "have",
+                        "has",
+                        "have had"
+                    ],
+                    "answer": "had had"
+                },
+                {
+                    "question": "By 2010, I __________ in New York for five years.",
+                    "options": [
+                        "had lived",
+                        "live",
+                        "lived",
+                        "have lived"
+                    ],
+                    "answer": "had lived"
+                },
+                {
+                    "question": "They __________ their project before the deadline.",
+                    "options": [
+                        "had finished",
+                        "finish",
+                        "have finished",
+                        "finish"
+                    ],
+                    "answer": "had finished"
+                },
+                {
+                    "question": "I __________ my exam before I went on vacation.",
+                    "options": [
+                        "had taken",
+                        "take",
+                        "takes",
+                        "have taken"
+                    ],
+                    "answer": "had taken"
+                },
+                {
+                    "question": "By the time I arrived, they __________ their party.",
+                    "options": [
+                        "have started",
+                        "had started",
+                        "start",
+                        "started"
+                    ],
+                    "answer": "had started"
+                },
+                {
+                    "question": "If I __________ more experience, I would have gotten the job.",
+                    "options": [
+                        "had",
+                        "have",
+                        "has",
+                        "have had"
+                    ],
+                    "answer": "had"
+                },
+                {
+                    "question": "I __________ my homework before I played video games.",
+                    "options": [
+                        "had done",
+                        "do",
+                        "did",
+                        "have done"
+                    ],
+                    "answer": "had done"
+                },
+                {
+                    "question": "They __________ their house by the time we arrived.",
+                    "options": [
+                        "had sold",
+                        "sell",
+                        "sells",
+                        "have sold"
+                    ],
+                    "answer": "had sold"
+                }
+            ],
+            "fillInTheBlank": [
+                {
+                    "question": "By the time I arrived, they ____________________ their dinner.",
+                    "answer": "had eaten"
+                },
+                {
+                    "question": "I ____________________ my homework before I went to bed.",
+                    "answer": "had done"
+                },
+                {
+                    "question": "If I ____________________ more money, I would have bought the car.",
+                    "answer": "had"
+                },
+                {
+                    "question": "By 2010, I ____________________ in New York for five years.",
+                    "answer": "had lived"
+                },
+                {
+                    "question": "They ____________________ their project before the deadline.",
+                    "answer": "had finished"
+                },
+                {
+                    "question": "I ____________________ my exam before I went on vacation.",
+                    "answer": "had taken"
+                },
+                {
+                    "question": "By the time I arrived, they ____________________ their party.",
+                    "answer": "had started"
+                },
+                {
+                    "question": "If I ____________________ more experience, I would have gotten the job.",
+                    "answer": "had"
+                },
+                {
+                    "question": "I ____________________ my homework before I played video games.",
+                    "answer": "had done"
+                },
+                {
+                    "question": "They ____________________ their house by the time we arrived.",
+                    "answer": "had sold"
+                }
+            ],
+            "dialogueCompletion": [
+                {
+                    "question": "A: I'm tired. I need a break. B: I know. You ____________________ (not/sleep) for three days.",
+                    "answer": "hadn't slept"
+                },
+                {
+                    "question": "A: I'm hungry. B: I know. You ____________________ (not/eat) lunch.",
+                    "answer": "hadn't eaten"
+                },
+                {
+                    "question": "A: I'm glad I passed the exam. B: Me too. I ____________________ (study) for three months.",
+                    "answer": "had studied"
+                },
+                {
+                    "question": "A: I'm sorry I'm late. B: It's okay. I ____________________ (not/finish) my work yet.",
+                    "answer": "hadn't finished"
+                },
+                {
+                    "question": "A: I love this song. B: Me too. I ____________________ (listen) to it all day.",
+                    "answer": "had been listening"
+                },
+                {
+                    "question": "A: I'm tired. B: I know. You ____________________ (work) for 10 hours.",
+                    "answer": "had worked"
+                },
+                {
+                    "question": "A: I'm happy. B: Me too. I ____________________ (just/get) engaged.",
+                    "answer": "had just gotten"
+                },
+                {
+                    "question": "A: I'm sad. B: I know. You ____________________ (just/lose) your phone.",
+                    "answer": "had just lost"
+                },
+                {
+                    "question": "A: I'm full. B: I know. You ____________________ (eat) a big meal.",
+                    "answer": "had eaten"
+                },
+                {
+                    "question": "A: I'm excited. B: Me too. We ____________________ (just/win) the game.",
+                    "answer": "had just won"
+                }
+            ]
+        }
+    }
+},
+    "Future Perfect Continuous": {
+        "description": "Emphasizes the duration of an action that will be in progress up until a point in the future.",
+        "grammar": {
+        "tense": "Future Perfect Continuous",
+        "uses": [
+            "to talk about an action that will be in progress at a specific point in the future and will continue up to that point",
+            "to show that an action will have a connection with another action in the future",
+            "to emphasize the duration of an action leading up to a point in the future"
+        ],
+        "structure": [
+            "Subject + will have been + verb-ing",
+           "Subject + will not have been + verb-ing",
+            "Will + subject + have been + verb-ing"
+        ],
+        "examples": [
+            {
+                "sentence": "By next year, I will have been studying English for five years.",
+                "explanation": "I will have been studying English for five years by next year, and I will still be studying it."
+            },
+            {
+                "sentence": "By the time I arrive, they will have been waiting for two hours.",
+                "explanation": "When I arrive, they will have been waiting for two hours, and they may be frustrated."
+            },
+            {
+                "sentence": "By the end of next month, I will have been working on this project for six months.",
+                "explanation": "By the end of next month, I will have been working on this project for six months, and I may be close to finishing it."
+            }
+        ],
+        "tests": {
+            "multipleChoice": [
+                {
+                    "question": "By next year, I ____________________ English for five years.",
+                    "options": [
+                        "will study",
+                        "will have studied",
+                        "will have been studying",
+                        "will be studying"
+                    ],
+                    "answer": "will have been studying"
+                },
+                {
+                    "question": "By the time I arrive, they ____________________ for two hours.",
+                    "options": [
+                        "will wait",
+                        "will have waited",
+                        "will have been waiting",
+                        "will be waiting"
+                    ],
+                    "answer": "will have been waiting"
+                },
+                {
+                    "question": "By the end of next month, I ____________________ on this project for six months.",
+                    "options": [
+                        "will work",
+                        "will have worked",
+                        "will have been working",
+                        "will be working"
+                    ],
+                    "answer": "will have been working"
+                },
+                {
+                    "question": "By next year, we ____________________ our new house for three years.",
+                    "options": [
+                        "will live",
+                        "will have lived",
+                        "will have been living",
+                        "will be living"
+                    ],
+                    "answer": "will have been living"
+                },
+                {
+                    "question": "By the time I graduate, I ____________________ six languages.",
+                    "options": [
+                        "will learn",
+                        "will have learned",
+                        "will have been learning",
+                        "will be learning"
+                    ],
+                    "answer": "will have been learning"
+                },
+                {
+                    "question": "By next summer, my parents ____________________ in their current house for 20 years.",
+                    "options": [
+                        "will live",
+                        "will have lived",
+                        "will have been living",
+                        "will be living"
+                    ],
+                    "answer": "will have been living"
+                },
+                {
+                    "question": "By the end of this year, I ____________________ my degree for two years.",
+                    "options": [
+                        "will have",
+                        "will have had",
+                        "will have been having",
+                        "will be having"
+                    ],
+                    "answer": "will have had"
+                },
+                {
+                    "question": "By next month, we ____________________ our new business for six months.",
+                    "options": [
+                        "will start",
+                        "will have started",
+                        "will have been starting",
+                        "will be starting"
+                    ],
+                    "answer": "will have been starting"
+                },
+                {
+                    "question": "By the time I retire, I ____________________ in the company for 30 years.",
+                    "options": [
+                        "will work",
+                        "will have worked",
+                        "will have been working",
+                        "will be working"
+                    ],
+                    "answer": "will have worked"
+                },
+                {
+                    "question": "By next year, my friends ____________________ in their new apartment for a year.",
+                    "options": [
+                        "will move",
+                        "will have moved",
+                        "will have been moving",
+                        "will be moving"
+                    ],
+                    "answer": "will have been living"
+                }
+            ],
+            "fillInTheBlank": [
+                {
+                    "question": "By next year, I ____________________ English for five years.",
+                    "answer": "will have been studying"
+                },
+                {
+                    "question": "By the time I arrive, they ____________________ for two hours.",
+                    "answer": "will have been waiting"
+                },
+                {
+                    "question": "By the end of next month, I ____________________ on this project for six months.",
+                    "answer": "will have been working"
+                },
+                {
+                    "question": "By next year, we ____________________ our new house for three years.",
+                    "answer": "will have been living"
+                },
+                {
+                    "question": "By the time I graduate, I ____________________ six languages.",
+                    "answer": "will have been learning"
+                },
+                {
+                    "question": "By next summer, my parents ____________________ in their current house for 20 years.",
+                    "answer": "will have lived"
+                },
+                {
+                    "question": "By the end of this year, I ____________________ my degree for two years.",
+                    "answer": "will have had"
+                },
+                {
+                    "question": "By next month, we ____________________ our new business for six months.",
+                    "answer": "will have been running"
+                },
+                {
+                    "question": "By the time I retire, I ____________________ in the company for 30 years.",
+                    "answer": "will have worked"
+                },
+                {
+                    "question": "By next year, my friends ____________________ in their new apartment for a year.",
+                    "answer": "will have been living"
+                }
+            ],
+            "dialogueCompletion": [
+                {
+                    "question": "A: By next year, I ____________________ English for five years. B: Really? That's amazing!",
+                    "answer": "will have been studying"
+                },
+                {
+                    "question": "A: I'm so sorry I'm late. By the time I arrive, you ____________________ for two hours. B: Yeah, I was getting worried.",
+                    "answer": "will have been waiting"
+                },
+                {
+                    "question": "A: By the end of next month, I ____________________ on this project for six months. B: You must be close to finishing it.",
+                    "answer": "will have been working"
+                },
+                {
+                    "question": "A: By next year, we ____________________ our new house for three years. B: Time flies, doesn't it?",
+                    "answer": "will have been living"
+                },
+                {
+                    "question": "A: By the time I graduate, I ____________________ six languages. B: That's incredible!",
+                    "answer": "will have been learning"
+                },
+                {
+                    "question": "A: By next summer, my parents ____________________ in their current house for 20 years. B: That's a long time!",
+                    "answer": "will have lived"
+                },
+                {
+                    "question": "A: By the end of this year, I ____________________ my degree for two years. B: Congratulations!",
+                    "answer": "will have had"
+                },
+                {
+                    "question": "A: By next month, we ____________________ our new business for six months. B: That's a big milestone!",
+                    "answer": "will have been running"
+                },
+                {
+                    "question": "A: By the time I retire, I ____________________ in the company for 30 years. B: You must be proud!",
+                    "answer": "will have worked"
+                },
+                {
+                    "question": "A: By next year, my friends ____________________ in their new apartment for a year. B: They must be settled in by now.",
+                    "answer": "will have been living"
+                }
+            ]
+        }
+    }
+},
+    "Past Perfect Continuous": {
+        "description": "Highlights the duration of an action that was in progress before another event in the past.",
+        "grammar": {
+        "tense": "Past Perfect Continuous",
+        "uses": [
+            "To describe an action that started before a specific point in the past and continued up to that point",
+            "To show cause and effect between two past actions",
+            "To emphasize the duration of an action before another past action"
+        ],
+        "structure": [
+           "had been + verb-ing",
+          "had not been + verb-ing",
+            "had + subject + been + verb-ing"
+        ],
+        "examples": [
+            {
+                "sentence": "I had been studying English for three years before I moved to the US.",
+                "explanation": "Describing an action that started before a specific point in the past and continued up to that point"
+            },
+            {
+                "sentence": "By the time I arrived, they had been waiting for two hours.",
+                "explanation": "Showing cause and effect between two past actions"
+            },
+            {
+                "sentence": "By 2010, I had been working on this project for five years.",
+                "explanation": "Emphasizing the duration of an action before another past action"
+            }
+        ],
+        "tests": {
+            "multipleChoice": [
+                {
+                    "question": "By the time I arrived, they ____________________ for two hours.",
+                    "options": [
+                        "had been waiting",
+                        "waited",
+                        "were waiting",
+                        "had wait"
+                    ],
+                    "answer": "had been waiting"
+                },
+                {
+                    "question": "I ____________________ for a job for six months before I got hired.",
+                    "options": [
+                        "had been looking",
+                        "looked",
+                        "was looking",
+                        "have been looking"
+                    ],
+                    "answer": "had been looking"
+                },
+                {
+                    "question": "By 2015, I ____________________ my bachelor's degree for three years.",
+                    "options": [
+                        "had been having",
+                        "had",
+                        "have had",
+                        "had had"
+                    ],
+                    "answer": "had had"
+                },
+                {
+                    "question": "They ____________________ to each other for hours before they finally made up.",
+                    "options": [
+                        "had been talking",
+                        "were talking",
+                        "talked",
+                        "have been talking"
+                    ],
+                    "answer": "had been talking"
+                },
+                {
+                    "question": "By the time I left, I ____________________ my essay for five hours.",
+                    "options": [
+                        "had been writing",
+                        "wrote",
+                        "was writing",
+                        "have been writing"
+                    ],
+                    "answer": "had been writing"
+                },
+                {
+                    "question": "They ____________________ for their trip for weeks before they finally left.",
+                    "options": [
+                        "had been preparing",
+                        "prepared",
+                        "were preparing",
+                        "have been preparing"
+                    ],
+                    "answer": "had been preparing"
+                },
+                {
+                    "question": "I ____________________ my guitar for three years before I gave up.",
+                    "options": [
+                        "had been playing",
+                        "played",
+                        "was playing",
+                        "have been playing"
+                    ],
+                    "answer": "had been playing"
+                },
+                {
+                    "question": "By the time I arrived, they ____________________ their project for months.",
+                    "options": [
+                        "had been working",
+                        "worked",
+                        "were working",
+                        "have been working"
+                    ],
+                    "answer": "had been working"
+                },
+                {
+                    "question": "I ____________________ to the gym every day for a year before I got tired of it.",
+                    "options": [
+                        "had been going",
+                        "went",
+                        "was going",
+                        "have been going"
+                    ],
+                    "answer": "had been going"
+                },
+                {
+                    "question": "They ____________________ to the beach every summer for ten years before they moved away.",
+                    "options": [
+                        "had been going",
+                        "went",
+                        "were going",
+                        "have been going"
+                    ],
+                    "answer": "had been going"
+                }
+            ],
+            "fillInTheBlank": [
+                {
+                    "question": "By the time I arrived, they ____________________ for two hours.",
+                    "answer": "had been waiting"
+                },
+                {
+                    "question": "I ____________________ for a job for six months before I got hired.",
+                    "answer": "had been looking"
+                },
+                {
+                    "question": "By 2015, I ____________________ my bachelor's degree for three years.",
+                    "answer": "had had"
+                },
+                {
+                    "question": "They ____________________ to each other for hours before they finally made up.",
+                    "answer": "had been talking"
+                },
+                {
+                    "question": "By the time I left, I ____________________ my essay for five hours.",
+                    "answer": "had been writing"
+                },
+                {
+                    "question": "They ____________________ for their trip for weeks before they finally left.",
+                    "answer": "had been preparing"
+                },
+                {
+                    "question": "I ____________________ my guitar for three years before I gave up.",
+                    "answer": "had been playing"
+                },
+                {
+                    "question": "By the time I arrived, they ____________________ their project for months.",
+                    "answer": "had been working"
+                },
+                {
+                    "question": "I ____________________ to the gym every day for a year before I got tired of it.",
+                    "answer": "had been going"
+                },
+                {
+                    "question": "They ____________________ to the beach every summer for ten years before they moved away.",
+                    "answer": "had been going"
+                }
+            ],
+            "dialogueCompletion": [
+                {
+                    "question": "A: How long did it take you to finish your project? B: I ____________________ on it for three months before I finally finished it.",
+                    "answer": "had been working"
+                },
+                {
+                    "question": "A: Why are you so tired? B: I ____________________ all night before the exam.",
+                    "answer": "had been studying"
+                },
+                {
+                    "question": "A: How long did you know each other before you got married? B: We ____________________ for five years before we got married.",
+                    "answer": "had been dating"
+                },
+                {
+                    "question": "A: What were you doing before you moved to New York? B: I ____________________ in California for three years before I moved to New York.",
+                    "answer": "had been living"
+                },
+                {
+                    "question": "A: How long did it take you to learn how to play the piano? B: I ____________________ for ten years before I finally mastered it.",
+                    "answer": "had been practicing"
+                },
+                {
+                    "question": "A: Why are you so good at speaking French? B: I ____________________ French for seven years before I moved to Paris.",
+                    "answer": "had been studying"
+                },
+                {
+                    "question": "A: How long did you work on your thesis before you finally submitted it? B: I ____________________ on it for nine months before I finally submitted it.",
+                    "answer": "had been working"
+                },
+                {
+                    "question": "A: What did you do before you became a teacher? B: I ____________________ as a lawyer for five years before I became a teacher.",
+                    "answer": "had been working"
+                },
+                {
+                    "question": "A: How long did you know each other before you got engaged? B: We ____________________ for two years before we got engaged.",
+                    "answer": "had been dating"
+                },
+                {
+                    "question": "A: What did you do before you moved to London? B: I ____________________ in Paris for three years before I moved to London.",
+                    "answer": "had been living"
+                }
+            ]
+        }
+    }
+},
+    "Present Perfect Continuous": {
+      "description": "The Present Perfect Continuous tense highlights the duration of an action from the past to the present.",
+      "grammar": {
+        "tense": "Present Perfect Continuous",
+        "uses": [
+          "To describe an action that started in the past and is still ongoing",
+          "To show that an action has been in progress for a specific period of time",
+          "To emphasize the duration of an activity up to now"
+        ],
+        "structure": [
+          "Subject + has/have + been + verb(-ing)"
+        ],
+      "examples": [
+        {
+          "sentence": "I have been studying English for three years.",
+          "explanation": "The studying began three years ago and is still continuing."
+        },
+        {
+          "sentence": "She has been working on her project for six months.",
+          "explanation": "The working started six months ago and is still in progress."
+        },
+        {
+          "sentence": "They have been living in Paris for five years.",
+          "explanation": "The living situation began five years ago and remains true."
+        }
+      ],
+      "tests": {
+        "multipleChoice": [
+          {
+            "question": "I ________________ (study) English for three years.",
+            "options": [
+              "have studied",
+              "have been studying",
+              "studied",
+              "study"
+            ],
+            "answer": "have been studying"
+          },
+          {
+            "question": "Right now, I ________________ (work) on a challenging project.",
+            "options": [
+              "have worked",
+              "have been working",
+              "worked",
+              "work"
+            ],
+            "answer": "have been working"
+          },
+          {
+            "question": "My sister ________________ (live) in London for six months.",
+            "options": [
+              "lives",
+              "has lived",
+              "has been living",
+              "live"
+            ],
+            "answer": "has been living"
+          },
+          {
+            "question": "I ________________ (not/talk) to my colleague for ages.",
+            "options": [
+              "haven't talked",
+              "haven't been talking",
+              "didn't talk",
+              "don't talk"
+            ],
+            "answer": "haven't been talking"
+          },
+          {
+            "question": "How long ________________ (you/learn) English?",
+            "options": [
+              "have you learned",
+              "have you been learning",
+              "did you learn",
+              "do you learn"
+            ],
+            "answer": "have you been learning"
+          },
+          {
+            "question": "I ________________ (not/eat) breakfast for five days.",
+            "options": [
+              "haven't eaten",
+              "haven't been eating",
+              "didn't eat",
+              "don't eat"
+            ],
+            "answer": "haven't been eating"
+          },
+          {
+            "question": "She ________________ (teach) at the university for ten years.",
+            "options": [
+              "teaches",
+              "has taught",
+              "has been teaching",
+              "taught"
+            ],
+            "answer": "has been teaching"
+          },
+          {
+            "question": "They ________________ (not/travel) abroad for five years.",
+            "options": [
+              "haven't traveled",
+              "haven't been traveling",
+              "didn't travel",
+              "don't travel"
+            ],
+            "answer": "haven't been traveling"
+          }
+        ],
+        "fillInTheBlank": [
+          {
+            "question": "I ____________________ (study) English for three years.",
+            "answer": "have been studying"
+          },
+          {
+            "question": "Right now, I ____________________ (work) on a challenging project.",
+            "answer": "have been working"
+          },
+          {
+            "question": "My sister ____________________ (live) in London for six months.",
+            "answer": "has been living"
+          },
+          {
+            "question": "I ____________________ (not/talk) to my colleague for ages.",
+            "answer": "haven't been talking"
+          },
+          {
+            "question": "How long ____________________ (you/learn) English?",
+            "answer": "have you been learning"
+          },
+          {
+            "question": "I ____________________ (not/eat) breakfast for five days.",
+            "answer": "haven't been eating"
+          },
+          {
+            "question": "She ____________________ (teach) at the university for ten years.",
+            "answer": "has been teaching"
+          },
+          {
+            "question": "They ____________________ (not/travel) abroad for five years.",
+            "answer": "haven't been traveling"
+          }
+        ],
+        "dialogueCompletion": [
+          {
+            "question": "A: How long have you been learning to play the guitar? \nB: I ____________________ (learn) for three years.",
+            "answer": "have been learning"
+          },
+          {
+            "question": "A: How's your project going? \nB: I ____________________ (work) on it for six months.",
+            "answer": "have been working"
+          },
+          {
+            "question": "A: Have you spoken with Sarah lately? \nB: No, I ____________________ (not/talk) to her for ages.",
+            "answer": "haven't been talking"
+          },
+          {
+            "question": "A: How long have you been studying for your exams? \nB: I ____________________ (study) for several weeks.",
+            "answer": "have been studying"
+          },
+          {
+            "question": "A: How's your new job going? \nB: I ____________________ (work) there for a few months now.",
+            "answer": "have been working"
+          },
+          {
+            "question": "A: Have you been eating well lately? \nB: Yes, I ____________________ (eat) healthy meals every day.",
+            "answer": "have been eating"
+          },
+          {
+            "question": "A: How long have they been teaching at that school? \nB: They ____________________ (teach) there for over five years.",
+            "answer": "have been teaching"
+          },
+          {
+            "question": "A: Why are you so tired? \nB: I ____________________ (not/sleep) well recently.",
+            "answer": "haven't been sleeping"
+          }
+        ]
+      }
+    }
+  }
+}
