@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master English Tenses</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+            --secondary: #1976D2;
+            --accent: #D32F2F;
+            --background: #f8f9fa;
+            --text: #2d3436;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+
+::-webkit-scrollbar {
+    width: 0 !important; /* Hides the scrollbar */
+    height: 0 !important; /* Also hides the horizontal scrollbar */
+}
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        /* School Header */
+        .header {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .header::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: #8B5CF6;
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            color: #666;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        .school-badge {
+            animation: badgePulse 2s infinite;
+            background: var(--primary);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .school-badge i {
+            color: white;
+            font-size: 1.8rem;
+        }
+
+        /* Tenses Grid */
+        .tenses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem 0;
+        }
+        .card-icon {
+            font-size: 2rem;
+            color: #8B5CF6;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .tense-card:hover .card-icon {
+            transform: rotate(15deg) scale(1.1);
+            color: #8B5CF6;
+        }
+
+        .tense-card {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 5px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.05);
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(59, 130, 246, 0.1);
+            backdrop-filter: blur(12px);
+
+            border: 1px solid #cacaca;
+     
+        }
+        .tense-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, 
+                transparent 45%, 
+                rgba(59, 130, 246, 0.1) 50%, 
+                transparent 55%
+            );
+            transform: rotate(45deg);
+            transition: all 0.6s ease;
+            opacity: 0;
+        }
+        .tense-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 12px 40px rgba(59, 130, 246, 0.15);
+        }
+
+        /* Tutorial Section */
+        .tutorial-section {
+            display: none;
+            /* background: white; */
+       
+            border-radius: 30px;
+       
+            /* box-shadow: 0 8px 32px rgba(0,0,0,0.08); */
+            animation: sectionSlide 0.4s ease;
+        }
+
+        .button {
+            padding: 1rem 2rem;
+            border: none;
+            /* border-radius: 6px; */
+            background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            
+        }
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(33, 150, 243, 0.25);
+        }
+
+
+        .tutorial-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .tutorial-header h2 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .box {
+            /* background: #e3f2fd; */
+            background: white;
+            padding: 1.75rem;
+            /* border-radius: 12px; */
+            border: 1px solid #cacaca;
+            margin: 1.5rem 0;
+            border-left: 4px solid #8B5CF6;
+        }
+        .box h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        /* .box h3 i {
+            color: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+        } */
+
+
+
+        .examples p {
+            position: relative;
+            padding-left: 30px;
+            margin: 0.5rem 0;
+        }
+        .examples p::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background: #8B5CF6;
+        }
+
+        /* Test Section */
+        .test-section {
+            display: none;
+            /* background: white; */
+            /* padding: 2rem; */
+            border-radius: 10px;
+            /* margin: 2rem 0; */
+            /* box-shadow: 0 8px 32px rgba(0,0,0,0.08); */
+            animation: sectionSlide 0.4s ease;
+        }
+
+        .question-card {
+            margin: 1.5rem 0;
+            /* padding: 1.5rem; */
+            border-radius: 12px;
+            /* background: #f8fafd; */
+        }
+
+       
+
+        /* Animations */
+        @keyframes badgePulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        @keyframes cardEntrance {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes underlineSlide {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        @keyframes sectionSlide {
+            from { transform: translateX(20px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        /* Translation Input Styling */
+.translation-input {
+    width: 100%;
+    padding: 1.1rem 1.75rem;
+    font-size: 1rem;
+    border: 2px solid #e0e0e0;
+    /* border-radius: 12px; */
+    background: white;
+    transition: all 0.3s ease;
+    margin: 1rem 0;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+.translation-input:focus {
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1);
+}
+
+.translation-input::placeholder {
+    color: #999;
+    font-weight: 400;
+}
+
+/* Multiple Choice Styling */
+.choice-item {
+    padding: 1.1rem 1.5rem;
+    margin: 0.75rem 0;
+    border: 2px solid #e0e0e0;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.choice-item:hover {
+    border-color: var(--secondary);
+    transform: translateX(5px);
+}
+
+.choice-item.correct {
+    border-color: #4CAF50;
+    background: #E8F5E9;
+}
+
+.choice-item.incorrect {
+    border-color: #D32F2F;
+    background: #FFEBEE;
+}
+
+.choice-item i {
+    font-size: 1.2rem;
+    color: var(--secondary);
+    transition: transform 0.2s ease;
+}
+
+.choice-item:hover i {
+    transform: scale(1.1);
+}
+
+/* Feedback Animation */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.choice-item.incorrect {
+    animation: shake 0.4s ease;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+.choice-item.correct {
+    animation: bounce 0.4s ease;
+}
+
+/* Submit Button for Translation */
+.submit-button {
+    width: 100%;
+    margin-top: 1rem;
+    background: var(--secondary);
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.submit-button:hover {
+    background: #1565C0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.2);
+}
+
+.submit-button i {
+    font-size: 1.2rem;
+}
+
+/* Feedback Message */
+.feedback-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    text-align: center;
+    display: none;
+}
+
+.feedback-message.correct {
+    background: #E8F5E9;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+
+.feedback-message.incorrect {
+    background: #FFEBEE;
+    color: #D32F2F;
+    border: 2px solid #D32F2F;
+}
+
+
+        /* Add new styles for dialogue completion */
+        .dialogue-prompt {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #8B5CF6;
+            margin: 1rem 0;
+        }
+
+        .dialogue-prompt p {
+            margin: 0.5rem 0;
+            color: #666;
+        }
+
+        .dialogue-input {
+            width: 100%;
+            padding: 1rem;
+            margin: 1rem 0;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+        }
+        /* Rest of original styles remain below */
+        /* ... (media queries, progress bar, back button styles remain unchanged) ... */
+    </style>
+
+    <style>
+        :root {
+  --progress-height: 1.5rem;
+  --progress-radius: 12px;
+  --progress-bg: #f0f0f0;
+  --progress-fill: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+  --progress-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  height: var(--progress-height);
+  background-color: white;
+  /* border-radius: var(--progress-radius); */
+  /* box-shadow: var(--progress-shadow); */
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+  border: 1px solid #cacaca;
+  /* border: 2px solid #ffffff; */
+  border-left: 4px solid #8B5CF6;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--progress-fill);
+  /* border-radius: var(--progress-radius); */
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.3s ease;
+  position: relative;
+  box-shadow: 2px 0 8px rgba(79, 172, 254, 0.4);
+}
+
+/* Shine effect */
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  /* animation: shine 2s infinite; */
+}
+
+@keyframes shine {
+  100% {
+    left: 200%;
+  }
+}
+
+/* Optional: Add percentage text */
+.progress-fill::before {
+  content: attr(data-progress);
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Pulse animation when complete */
+/* .progress-fill[data-progress="100"] {
+  animation: pulse 1.5s infinite;
+} */
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(79, 172, 254, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(79, 172, 254, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(79, 172, 254, 0); }
+}
+
+.footer {
+ 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 1000; /* Ensures footer stays above other content */
+}
+    </style>
+</head>
+<body>
+ 
+
+    <div class="container">
+        <header class="header">
+            <div class="school-badge">
+                <i class="fas fa-university"></i>
+            </div>
+            <h1>MASTER ENGLISH TENSES</h1>
+            <p class="subtitle">Official Learning Platform for Schools</p>
+
+        </header>
+
+        <!-- <div class="tenses-grid" id="tensesGrid"></div> -->
+
+        <div class="tenses-grid" id="tensesGrid">
+            <!-- Card Template -->
+
+            <!-- Add more tense cards here -->
+        </div>
+
+      
+        <div class="tutorial-section" id="tutorialSection">
+           
+            <div class="tutorial-header">
+                <h2 id="tenseTitle-tutorial"></h2>
+            </div>
+           
+            <div class="box">
+                <h3><i class="fas fa-project-diagram"></i> Structure</h3>
+                <p id="structure"></p>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-clipboard-list"></i> Usage</h3>
+                <div id="usageList"></div>
+            </div>
+            <div class="box">
+                <h3><i class="fas fa-comment-dots"></i> Examples</h3>
+                <div id="examplesList"></div>
+            </div>
+            <button class="button back-button" onclick="showTensesGrid()"><i class="fas fa-arrow-left"></i> Back</button>
+         <button class="button" onclick="startTest()">Start Practice <i class="fas fa-play"></i></button>
+        </div>
+      
+        <div class="test-section" id="testSection">
+        
+            <div class="tutorial-header">
+                <h2 id="tenseTitle-test"></h2>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div id="testContent"></div>
+        </div>
+        
+    </div>
+    
+    <footer class="footer">
+        <p class="subtitle">© Lorentzos. All rights reserved.</p>
+    </footer>
+    
+    <script>
+let tensesData = {}; // This will store the fetched tense data
+let currentTense = null;
+let currentQuestion = 0;
+let score = 0;
+let totalQuestions = null;
+let isButtonDisabled = false; // Track if button is disabled
+
+const TENSE_PRIORITY = [
+    "Present Simple",
+    "Present Continuous",
+    "Past Simple",
+    "Future Simple",
+    "Present Perfect",
+    "Past Continuous",
+    "Future with 'going to'",
+    "Past Perfect",
+    "Future Continuous",
+    "Present Perfect Continuous",
+    "Past Perfect Continuous",
+    "Future Perfect",
+    "Future Perfect Continuous"
+];
+
+
+// Fetch the JSON data
+async function fetchTenseData() {
+    try {
+        const response = await fetch('https://raw.githubusercontent.com/GLorentzos/development/refs/heads/main/tenses_data.json'); // tenses_data.json
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        tensesData = await response.json();
+        init(); // Initialize the grid after data is fetched
+    } catch (error) {
+        console.error('Error fetching tense data:', error);
+    }
+}
+function init() {
+    const grid = document.getElementById('tensesGrid');
+    
+    // Create cards in teaching priority order
+    TENSE_PRIORITY.forEach(tense => {
+        if (!tensesData[tense]) return; // Skip if not in data
+        
+        const card = document.createElement('div');
+        card.className = 'tense-card';
+        const description = tensesData[tense].description || 'Learn basic structure and usage.';
+        
+        card.innerHTML = `
+            <div class="card-content">
+                <i class="fas fa-hourglass-start card-icon"></i>
+                <h3 class="card-title">${tense}</h3>
+                <p class="card-description">${description}</p>
+            </div>
+        `;
+        card.addEventListener('click', () => showTutorial(tense));
+        grid.appendChild(card);
+    });
+
+    // Add any remaining tenses not in priority list (optional)
+    Object.keys(tensesData).forEach(tense => {
+        if (!TENSE_PRIORITY.includes(tense)) {
+            // Create card with lower priority
+            const card = createCard(tense);
+            grid.appendChild(card);
+        }
+    });
+}
+
+function showTensesGrid() {
+    document.getElementById('tensesGrid').style.display = 'grid';
+    document.getElementById('tutorialSection').style.display = 'none';
+    document.getElementById('testSection').style.display = 'none';
+    resetProgress();
+}
+
+function showTutorial(tense) {
+    currentTense = tense;
+    document.getElementById('tensesGrid').style.display = 'none';
+    document.getElementById('testSection').style.display = 'none';
+    const tutorial = document.getElementById('tutorialSection');
+
+    // Update the tutorial section with the tense data
+    document.getElementById('tenseTitle-test').textContent = tense;
+    document.getElementById('tenseTitle-tutorial').textContent = tense;
+
+    const grammar = tensesData[tense]?.grammar;
+    if (!grammar) {
+        alert('No data available for this tense.');
+        return;
+    }
+
+    const structure = grammar.structure;
+    if (Array.isArray(structure)) {
+        document.getElementById('structure').innerHTML = structure.map(s => `<p>• ${s}</p>`).join('');
+    } else {
+        document.getElementById('structure').textContent = structure || 'No structure available.';
+    }
+
+    // Display the uses
+    const uses = grammar.uses || [];
+    document.getElementById('usageList').innerHTML = uses
+        .map(item => `<p>• ${item}</p>`).join('') || '<p>No usage information available.</p>';
+
+    // Display the examples
+    const examples = grammar.examples || [];
+    if (Array.isArray(examples) && examples.length > 0 && typeof examples[0] === 'object') {
+        document.getElementById('examplesList').innerHTML = examples
+            .map(ex => `<p>• ${ex.sentence} <em>(${ex.explanation || 'No explanation'})</em></p>`).join('');
+    } else {
+        document.getElementById('examplesList').innerHTML = examples
+            .map(ex => `<p>• ${ex}</p>`).join('') || '<p>No examples available.</p>';
+    }
+
+    tutorial.style.display = 'block';
+    resetProgress();
+}
+
+function startTest() {
+    document.getElementById('tutorialSection').style.display = 'none';
+    document.getElementById('testSection').style.display = 'block';
+    const test = tensesData[currentTense].grammar.tests;
+    totalQuestions = test.multipleChoice.length + test.fillInTheBlank.length + test.dialogueCompletion.length;
+    currentQuestion = 0;
+    score = 0;
+    updateProgress();
+    showQuestion();
+}
+
+function showQuestion() {
+    const test = tensesData[currentTense].grammar.tests;
+    const testContent = document.getElementById('testContent');
+    testContent.innerHTML = '';
+
+    if (currentQuestion < test.multipleChoice.length) {
+        // Multiple Choice Question
+        const question = test.multipleChoice[currentQuestion];
+        testContent.innerHTML = `
+            <div class="box">
+                <h3>Choose the correct answer:</h3>
+                <h3>${question.question}</h3>
+                ${question.options.map((opt, i) => `
+                    <div class="choice-item" onclick="checkAnswer(${i}, ${question.options.indexOf(question.answer)})">
+                        ${opt}
+                    </div>
+                `).join('')}
+            </div>
+        <button class="button back-button" onclick="showTutorial(currentTense)"><i class="fas fa-arrow-left"></i> Back to Tutorial</button>
+        `;
+    } else if (currentQuestion < test.multipleChoice.length + test.fillInTheBlank.length) {
+        // Fill in the Blank Question
+        const fillIndex = currentQuestion - test.multipleChoice.length;
+        const question = test.fillInTheBlank[fillIndex];
+        testContent.innerHTML = `
+            <div class="box">
+                <h3>Complete the sentence:</h3>
+                <h3>${question.question}</h3>
+                <input type="text" class="translation-input" id="translationInput" placeholder="Type your answer here...">
+                
+            </div>
+            <button class="button" onclick="checkTranslation('${question.answer.replace(/'/g, "\\'")}')">Submit Answer <i class="fas fa-paper-plane"></i></button>
+            <button class="button back-button" onclick="showTutorial(currentTense)"><i class="fas fa-arrow-left"></i> Back to Tutorial</button>
+        `;
+    } else {
+        // Dialogue Completion Question
+        const dialogueIndex = currentQuestion - test.multipleChoice.length - test.fillInTheBlank.length;
+        const question = test.dialogueCompletion[dialogueIndex];
+        testContent.innerHTML = `
+            <div class="box">
+                <h3>Complete the dialogue:</h3>
+                <h4>${question.question}</h4>
+                <input type="text" class="translation-input" id="translationInput" placeholder="Type your answer here...">
+            </div>
+            <button class="button" onclick="checkTranslation('${question.answer.replace(/'/g, "\\'")}')">Submit Answer <i class="fas fa-paper-plane"></i></button>
+                <button class="button back-button" onclick="showTutorial(currentTense)"><i class="fas fa-arrow-left"></i> Back to Tutorial</button>
+        `;
+    }
+}
+
+// Modified checkAnswer function with delay to prevent abuse
+function checkAnswer(selectedIndex, correctIndex) {
+    if (isButtonDisabled) return; // Prevent multiple clicks
+
+    const choices = document.querySelectorAll('.choice-item');
+    choices.forEach(choice => choice.style.backgroundColor = '');
+
+    if (selectedIndex === correctIndex) {
+        choices[selectedIndex].style.backgroundColor = '#c8e6c9';
+        score++;
+    } else {
+        choices[selectedIndex].style.backgroundColor = '#ffcdd2';
+        choices[correctIndex].style.backgroundColor = '#c8e6c9';
+    }
+
+    isButtonDisabled = true; // Disable the button
+    currentQuestion++;
+
+    setTimeout(() => {
+        updateProgress();
+        if (currentQuestion < totalQuestions) {
+            showQuestion();
+        } else {
+            showResult();
+        }
+    }, 1000);
+
+    // Re-enable the button after 1 second
+    setTimeout(() => {
+        isButtonDisabled = false;
+    }, 1000);
+}
+
+// Contractions mapping (expanded)
+const contractionsMap = {
+    "don't": ["do not", "dont"],
+    "doesn't": ["does not","doesnt"],
+    "didn't": ["did not", "didnt"],
+    "won't": ["will not", "wont"],
+    "wouldn't": ["would not", "wouldnt"],
+    "can't": ["cannot", "cant"],
+    "couldn't": ["could not", "couldnt"],
+    "shouldn't": ["should not", "shouldnt"],
+    "mightn't": ["might not", "mightnt"],
+    "mustn't": ["must not", "mustnt"],
+    "isn't": ["is not", "isnt"],
+    "aren't": ["are not", "arent"],
+    "wasn't": ["was not", "wasnt"],
+    "weren't": ["were not", "werent"],
+    "hasn't": ["has not", "hasnt"],
+    "haven't": ["have not", "havent"],
+    "hadn't": ["had not", "hadnt"],
+    "he's": ["he is", "hes"],
+    "she's": ["she is", "shes"],
+    "it's": ["it is", "its"],
+    "i'm": ["i am", "im"],
+    "you're": ["you are", "youre"],
+    "we're": ["we are", "were"],
+    "they're": ["they are", "theyre"],
+    "i'll": ["i will", "ill"],
+    "you'll": ["you will", "youll"],
+    "we'll": ["we will", "well"],
+    "they'll": ["they will", "theyll"],
+    "i've": ["i have", "ive"],
+    "you've": ["you have", "youve"],
+    "we've": ["we have", "weve"],
+    "they've": ["they have", "theyve"],
+    "let's": ["let us", "lets"],
+    "that'll": ["that will", "thatll"],
+    "what's": ["what is", "whats"],
+    "who's": ["who is", "whos"],
+    "how's": ["how is", "hows"],
+    "here's": ["here is", "heres"],
+    "there's": ["there is", "theres"],
+    "I'd": ["I would", "Id"],
+    "you'd": ["you would", "youd"],
+    "he'd": ["he would", "hed"],
+    "she'd": ["she would", "shed"],
+    "we'd": ["we would", "wed"],
+    "they'd": ["they would", "theyd"],
+    "I've": ["I have", "Ive"],
+    "you've": ["you have", "youve"],
+    "he's": ["he has", "hes"],
+    "she's": ["she has", "shes"],
+    "we've": ["we have", "weve"],
+    "they've": ["they have", "theyve"],
+    "I'd've": ["I would have", "Idve"],
+    "you'd've": ["you would have", "youdve"],
+    "he'd've": ["he would have", "hedve"],
+    "she'd've": ["she would have", "shedve"],
+    "we'd've": ["we would have", "wedve"],
+    "they'd've": ["they would have", "theydve"],
+    "should've": ["should have", "shouldve"],
+    "could've": ["could have", "couldve"],
+    "might've": ["might have", "mightve"]
+};
+
+// Synonym mapping (expanded)
+const synonymMap = {
+    "happy": ["joyful", "content", "cheerful", "pleased", "delighted"],
+    "sad": ["unhappy", "sorrowful", "downcast", "dismal", "melancholy"],
+    "big": ["large", "huge", "gigantic", "enormous", "immense"],
+    "small": ["tiny", "little", "minute", "petite", "compact"],
+    "smart": ["intelligent", "clever", "bright", "sharp", "wise"],
+    "correct": ["right", "accurate", "precise", "exact", "true"],
+    "good": ["excellent", "great", "superb", "outstanding", "fantastic"],
+    "bad": ["poor", "terrible", "awful", "dreadful", "subpar"],
+    "fast": ["quick", "rapid", "swift", "speedy", "hasty"],
+    "slow": ["leisurely", "gradual", "delayed", "unhurried", "sluggish"],
+    "strong": ["powerful", "robust", "sturdy", "resilient", "tough"],
+    "weak": ["fragile", "delicate", "feeble", "frail", "unstable"],
+    "beautiful": ["pretty", "lovely", "attractive", "charming", "stunning"],
+    "ugly": ["unattractive", "unsightly", "unappealing", "hideous", "repulsive"],
+    "rich": ["wealthy", "affluent", "prosperous", "loaded", "opulent"],
+    "poor": ["impoverished", "needy", "destitute", "underprivileged", "broke"],
+    "hard": ["tough", "firm", "rigid", "solid", "strong"],
+    "easy": ["simple", "effortless", "straightforward", "smooth", "uncomplicated"],
+    "old": ["ancient", "aged", "elderly", "vintage", "historic"],
+    "young": ["youthful", "teen", "fresh", "immature", "juvenile"],
+    "hot": ["warm", "scorching", "boiling", "sweltering", "fiery"],
+    "cold": ["chilly", "freezing", "icy", "frigid", "cool"],
+    "get": ["obtain", "receive", "acquire", "fetch", "gather", "collect"],
+    "take": ["grab", "seize", "pick", "obtain", "capture", "gather", "collect"]
+};
+
+
+function expandContractions(str) {
+    let expandedStr = str;
+    Object.entries(contractionsMap).forEach(([contraction, variations]) => {
+        const escapedVariations = variations.concat(contraction)
+            .map(v => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+        const regexPattern = `\\b(${escapedVariations.join('|')})\\b`;
+        const regex = new RegExp(regexPattern, 'gi');
+        expandedStr = expandedStr.replace(regex, variations[0]);
+    });
+    return expandedStr;
+}
+
+
+function normalizeAnswer(str) {
+    // Normalize by removing all non-alphanumeric characters except spaces
+    return str.replace(/[^a-z0-9\s]/gi, '').toLowerCase().trim();
+}
+
+function areSynonyms(word1, word2) {
+    return (synonymMap[word1]?.includes(word2) || 
+           synonymMap[word2]?.includes(word1) || 
+           word1 === word2);
+}
+
+function isTemperature(answer) {
+    return /\d+\s*°?\s*(c|f|celsius|fahrenheit)\b/i.test(answer);
+}
+
+function isTimeCheck(answer) {
+    return /\d+\s*(am|pm)\b/i.test(answer);
+}
+
+function extractNumber(answer) {
+    const match = answer.match(/\d+/);
+    return match ? match[0] : null;
+}
+
+function checkTranslation(correctAnswer) {
+    if (isButtonDisabled) return; // Prevent multiple clicks
+
+    const translationInput = document.getElementById('translationInput');
+    const userAnswer = translationInput.value.trim();
+
+    // Expand contractions in both answers
+    const expandedUser = expandContractions(userAnswer);
+    const expandedCorrect = expandContractions(correctAnswer);
+
+    // Normalize both answers
+    const normalizedUser = normalizeAnswer(expandedUser);
+    const normalizedCorrect = normalizeAnswer(expandedCorrect);
+
+    let isCorrect = false;
+
+    // Direct match check
+    if (normalizedUser === normalizedCorrect) {
+        isCorrect = true;
+    } else {
+        // Split into words for structural comparison
+        const userWords = normalizedUser.split(/\s+/);
+        const correctWords = normalizedCorrect.split(/\s+/);
+
+        // Structural check with synonyms
+        if (userWords.length === correctWords.length) {
+            isCorrect = userWords.every((userWord, index) => {
+                const correctWord = correctWords[index];
+                return areSynonyms(userWord, correctWord);
+            });
+        }
+
+        // Temperature/time check if structural match failed
+        if (!isCorrect) {
+            const isTemp = isTemperature(correctAnswer);
+            const isTime = isTimeCheck(correctAnswer);
+            if (isTemp || isTime) {
+                const correctNumber = extractNumber(correctAnswer);
+                const userNumber = extractNumber(userAnswer);
+                isCorrect = userNumber === correctNumber;
+            }
+        }
+    }
+
+    // Handle UI feedback
+    if (isCorrect) {
+        translationInput.style.backgroundColor = '#c8e6c9';
+        translationInput.style.borderColor = '#c8e6c9';
+        score++;
+    } else {
+        translationInput.style.backgroundColor = '#ffcdd2';
+        translationInput.style.borderColor = '#ffcdd2';
+        translationInput.value = correctAnswer; // Show correct answer
+    }
+
+    currentQuestion++;
+
+    isButtonDisabled = true; // Disable the button
+    setTimeout(() => {
+        updateProgress();
+        currentQuestion < totalQuestions ? showQuestion() : showResult();
+    }, 1000);
+
+    // Re-enable the button after 1 second
+    setTimeout(() => {
+        isButtonDisabled = false;
+    }, 1000);
+}
+
+function showResult() {
+    const testContent = document.getElementById('testContent');
+    testContent.innerHTML = `
+        <div class="box">
+            <h3>Test Complete!</h3>
+            <h4>You scored ${score}/${totalQuestions}</h4>
+        </div>
+                    <button class="button" onclick="startTest()"><i class="fas fa-redo"></i> Try Again</button>
+            <button class="button" onclick="showTensesGrid()"><i class="fas fa-sync-alt"></i> Choose Another Tense</button>
+    `;
+    document.getElementById('progressFill').style.width = '100%';
+}
+
+function updateProgress() {
+    const progress = (currentQuestion / totalQuestions) * 100;
+    document.getElementById('progressFill').style.width = `${progress}%`;
+}
+
+function resetProgress() {
+    document.getElementById('progressFill').style.width = '0%';
+}
+
+// Fetch the tense data when the page loads
+fetchTenseData();
+    </script>
+</body>
+</html>
