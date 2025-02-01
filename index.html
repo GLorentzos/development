@@ -722,7 +722,7 @@ function showQuestion() {
                     </div>
                 `).join('')}
             </div>
-        <button class="button back-button" onclick="showTutorial(currentTense)"><i class="fas fa-arrow-left"></i> Back</button>
+        <button class="button back-button" onclick="showTutorial(currentTense)"><i class="fas fa-arrow-left"></i> Leave</button>
         `;
     } else if (currentQuestion < test.multipleChoice.length + test.fillInTheBlank.length) {
         // Fill in the Blank Question
@@ -736,7 +736,7 @@ function showQuestion() {
                 
             </div>
             <button class="button" onclick="checkTranslation('${question.answer.replace(/'/g, "\\'")}')">Submit Answer <i class="fas fa-paper-plane"></i></button>
-            <button class="button back-button" onclick="showTutorial(currentTense)"><i class="fas fa-arrow-left"></i> Back</button>
+            <button class="button back-button" onclick="showTutorial(currentTense)"><i class="fas fa-arrow-left"></i> Leave</button>
         `;
     } else {
         // Dialogue Completion Question
@@ -749,7 +749,7 @@ function showQuestion() {
                 <input type="text" class="translation-input" id="translationInput" placeholder="Type your answer here...">
             </div>
             <button class="button" onclick="checkTranslation('${question.answer.replace(/'/g, "\\'")}')">Submit Answer <i class="fas fa-paper-plane"></i></button>
-                <button class="button back-button" onclick="showTutorial(currentTense)"><i class="fas fa-arrow-left"></i> Back to Tutorial</button>
+                <button class="button back-button" onclick="showTutorial(currentTense)"><i class="fas fa-arrow-left"></i> Leave</button>
         `;
     }
 }
