@@ -200,15 +200,16 @@
         font-family: Arial, Helvetica, sans-serif;
       }
 
-      /* Mobile responsiveness for the birthday input and label */
-      @media (max-width: 600px) {
-        .content input, .content button {
-          font-size: 18px; /* Larger font size */
-          padding: 0 20px; /* Increased padding for better touch experience */
-          height: 50px; /* Increased height for both input and button */
-          width: 100%; /* Ensures they take up full width */
-        }
-      }
+
+        .content input,
+.content button {
+  -webkit-appearance: none; /* Remove default mobile styling */
+  appearance: none;
+  height: 50px; /* Increase height */
+  font-size: 16px; /* Increase font size */
+  padding: 0 20px; /* Add more padding */
+}
+
     </style>
   </head>
   <body>
