@@ -22,160 +22,190 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <style>
       body, html {
-      height: 100%;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #ffffff;
-      }
-      ::-webkit-scrollbar {
-      display: none;
-      }
-      .content {
-      width: 100%;
-      color: white;
-      }
-      .content label, .content input, .content button, .content a {
-      margin: 0 auto 15px;
-      width: 100%;
-      max-width: 645px;
-      box-sizing: border-box;
-      }
-      button {
-      background-color: #3e6ae1;
-      border: none;
-      color: white;
-      cursor: pointer;
-      border-radius: 4px;
-      font-weight: 550;
-      height: 40px;
-      width: 100%;
-      }
-      button:hover {
-      opacity: 0.9;
-      }
-      .content input {
-      background-color: #f4f4f4;
-      border: none;
-      color: rgb(44, 44, 44);
-      padding: 0 14px;
-      border-radius: 4px;
-      height: 40px;
-      width: 100%;
-      }
-      .content input:focus {
-      outline: 1px solid rgba(193, 193, 193, 0.811);
-      }
-      .content h2 {
-      color: rgba(19, 19, 19, 0.881);
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 30px;
-      margin: 0 auto 20px;
-      text-align: center;
-      }
-      .content label {
-      color: rgba(19, 19, 19, 0.881);
-      font-weight: 400;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      text-align: left;
-      max-width: 345px;
-      width: 100%;
-      margin: 0 auto 8px;
-      }
-      .content a {
-      color: rgba(19, 19, 19, 0.556);
-      text-underline-offset: 4px;
-      font-size: 14px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      max-width: 345px;
-      margin: 15px auto 0;
-      }
-      .fas.fa-info-circle {
-      margin-left: 5px;
-      cursor: pointer;
-      }
-      .separator {
-      text-align: center;
-      position: relative;
-      margin: 20px 0;
-      max-width: 345px;
-      width: 100%;
-      margin: 20px auto;
-      }
-      .separator::before,
-      .separator::after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      width: 45%;
-      border-bottom: 2px solid rgba(160, 160, 160, 0.345);
-      z-index: 1;
-      }
-      .separator::before {
-      left: 0;
-      }
-      .separator::after {
-      right: 0;
-      }
-      .separator span {
-      position: relative;
-      display: inline-block;
-      padding: 0 10px;
-      color: rgba(65, 65, 65, 0.625);
-      font-family: Arial, Helvetica, sans-serif;
-      background: rgba(255, 255, 255, 0);
-      z-index: 2;
-      }
-      .content .w-button {
-      color: rgba(0, 0, 0, 0.666);
-      background-color: #f4f4f4;
-      }
-      .info {
-      background-color: rgb(251, 251, 251);
-      width: 360px;
-      padding: 10px;
-      color: rgba(72, 72, 72, 0.582);
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      font-family: Arial, Helvetica, sans-serif;
-      position: absolute;
-      top: 20px;
-      left: 500%;
-      font-weight: bold;
-      transform: translateX(-50%);
-      z-index: 1;
-      }
-      .info-container {
-      display: inline-flex;
-      flex-direction: column;
-      align-items: center;
-      position: relative;
-      }
-      button:disabled {
-      background-color: #a0b4f4;
-      color: #ffffffc3;
-      cursor: not-allowed;
-      }
-      .hidden {
-      display: none;
-      }
-      .integer-part {
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 3.5rem;
-      color: #333;
-      }
-      .decimal-part {
-      font-size: 2.5rem;
-      color: #777;
-      text-align: center;
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
       }
 
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      .content {
+        width: 100%;
+        color: white;
+      }
+
+      .content label, .content input, .content button, .content a {
+        margin: 0 auto 15px;
+        width: 100%;
+        max-width: 645px;
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color: #3e6ae1;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: 550;
+        height: 40px;
+        width: 100%;
+      }
+
+      button:hover {
+        opacity: 0.9;
+      }
+
+      .content input {
+        background-color: #f4f4f4;
+        border: none;
+        color: rgb(44, 44, 44);
+        padding: 0 14px;
+        border-radius: 4px;
+        height: 40px;
+        width: 100%;
+      }
+
+      .content input:focus {
+        outline: 1px solid rgba(193, 193, 193, 0.811);
+      }
+
+      .content h2 {
+        color: rgba(19, 19, 19, 0.881);
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        margin: 0 auto 20px;
+        text-align: center;
+      }
+
+      .content label {
+        color: rgba(19, 19, 19, 0.881);
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        max-width: 345px;
+        width: 100%;
+        margin: 0 auto 8px;
+      }
+
+      .content a {
+        color: rgba(19, 19, 19, 0.556);
+        text-underline-offset: 4px;
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        max-width: 345px;
+        margin: 15px auto 0;
+      }
+
+      .fas.fa-info-circle {
+        margin-left: 5px;
+        cursor: pointer;
+      }
+
+      .separator {
+        text-align: center;
+        position: relative;
+        margin: 20px 0;
+        max-width: 345px;
+        width: 100%;
+        margin: 20px auto;
+      }
+
+      .separator::before,
+      .separator::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        width: 45%;
+        border-bottom: 2px solid rgba(160, 160, 160, 0.345);
+        z-index: 1;
+      }
+
+      .separator::before {
+        left: 0;
+      }
+
+      .separator::after {
+        right: 0;
+      }
+
+      .separator span {
+        position: relative;
+        display: inline-block;
+        padding: 0 10px;
+        color: rgba(65, 65, 65, 0.625);
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgba(255, 255, 255, 0);
+        z-index: 2;
+      }
+
+      .content .w-button {
+        color: rgba(0, 0, 0, 0.666);
+        background-color: #f4f4f4;
+      }
+
+      .info {
+        background-color: rgb(251, 251, 251);
+        width: 360px;
+        padding: 10px;
+        color: rgba(72, 72, 72, 0.582);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 20px;
+        left: 500%;
+        font-weight: bold;
+        transform: translateX(-50%);
+        z-index: 1;
+      }
+
+      .info-container {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+      }
+
+      button:disabled {
+        background-color: #a0b4f4;
+        color: #ffffffc3;
+        cursor: not-allowed;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .integer-part {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3.5rem;
+        color: #333;
+      }
+
+      .decimal-part {
+        font-size: 2.5rem;
+        color: #777;
+        text-align: center;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Mobile responsiveness for the birthday input and label */
+      @media (max-width: 600px) {
+        .content label, .content input {
+          display: block;
+          width: 100%;
+        }
+      }
     </style>
   </head>
   <body>
@@ -232,3 +262,4 @@
     </script>
   </body>
 </html>
+
