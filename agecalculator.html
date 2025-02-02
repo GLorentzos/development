@@ -199,17 +199,15 @@ INSPIRED BY A TIK TOK VIDEO IN 2/2/2025
             <h2>Your Age</h2>
             <span class="integer-part" id="integerPart">0</span><span style="font-size: 5.5rem;">.</span><span class="decimal-part" id="decimalPart">000000000</span>
           <button onclick="window.location.reload();">Leave</button>
+          <p style="font-weight: bold; color: rgba(0, 0, 0, 0.652); text-align: center;">Precise age calculation to milliseconds</p>
+          <p style="font-weight: bold; color: rgba(0, 0, 0, 0.652); text-align: center;">© <span id="year" style="font-weight: bold; color: rgba(0, 0, 0, 0.652);"></span> Lorentzos. All rights reserved.</p>
+          <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+          </script>
         </div>
       </div>
     </div>
     
-    <footer class="footer">
-        <p style="font-weight: bold; color: rgba(0, 0, 0, 0.652);">© <span id="year" style="font-weight: bold; color: rgba(0, 0, 0, 0.652);"></span> Lorentzos. All rights reserved.</p>
-        <script>
-          document.getElementById('year').textContent = new Date().getFullYear();
-        </script>
-    </footer>
-
     <script>
       let updateInterval;
 
