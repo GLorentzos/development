@@ -19,12 +19,13 @@ INSPIRED BY A TIK TOK VIDEO IN 2/2/2025
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <style>
       body, html {
-        height: 100%;
         margin: 0;
         background-color: #ffffff;
         font-family: Arial, Helvetica, sans-serif;
         overflow: hidden;
       }
+
+      
       ::-webkit-scrollbar {
         display: none;
       }
@@ -169,6 +170,15 @@ INSPIRED BY A TIK TOK VIDEO IN 2/2/2025
         margin-left: 10px;
         margin-right: 10px;
       }
+      .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: transparent;
+        text-align: center;
+        padding: 20px 0;
+        z-index: 1000;
+      }
     </style>
   </head>
   <body>
@@ -178,8 +188,12 @@ INSPIRED BY A TIK TOK VIDEO IN 2/2/2025
         <p style="font-weight: bold; color: rgba(0, 0, 0, 0.652);">Birthday</p>
         <input type="date" id="birthDate" required>
         <button id="next-button" disabled>Calculate Age</button>
-        <p style="font-weight: bold; color: rgba(0, 0, 0, 0.652);">Precision age calculation with millisecond accuracy</p>
-      </div>
+        <p style="font-weight: bold; color: rgba(0, 0, 0, 0.652); text-align: center;">Precise age calculation to milliseconds</p>
+        <p style="font-weight: bold; color: rgba(0, 0, 0, 0.652); text-align: center;">© <span id="year" style="font-weight: bold; color: rgba(0, 0, 0, 0.652);"></span> Lorentzos. All rights reserved.</p>
+        <script>
+          document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </div>
       
         <div class="content hidden" id="resultSection" style="text-align: center;">
             <h2>Your Age</h2>
@@ -188,6 +202,14 @@ INSPIRED BY A TIK TOK VIDEO IN 2/2/2025
         </div>
       </div>
     </div>
+    
+    <footer class="footer">
+        <p style="font-weight: bold; color: rgba(0, 0, 0, 0.652);">© <span id="year" style="font-weight: bold; color: rgba(0, 0, 0, 0.652);"></span> Lorentzos. All rights reserved.</p>
+        <script>
+          document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
     <script>
       let updateInterval;
 
