@@ -6,214 +6,232 @@
     <title>Age Counter</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-   <style>
-    body, html {
+    <style>
+        body, html {
             height: 100%;
             margin: 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: rgba(255,255,255,255); /* Optional: for better visibility */
+            background-color: #ffffff;
         }
-
+    
         ::-webkit-scrollbar {
-    display: none;
-}
-
-
+            display: none;
+        }
+    
         .form {
-            width: 460px;
+            /* width: 90%;
+            max-width: 460px; */
             padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            border-radius: 8px; /* Optional: for rounded corners */
+            border-radius: 8px;
+            box-sizing: border-box;
         }
-
-        .content{
-            text-align: center;
-            color: white; /* Optional: for better contrast */
-        }
-
-        .content label, .content input, .content button, .content a {
-            display: block;
-            margin-bottom: 15px;
+    
+        .content {
             width: 100%;
+    
+            color: white;
         }
-
-        .content button{
+    
+        .content label, .content input, .content button, .content a {
+       
+            margin: 0 auto 15px;
+            width: 100%;
+            max-width: 645px;
+            box-sizing: border-box;
+        }
+    
+        button {
             background-color: #3e6ae1;
             border: none;
             color: white;
             cursor: pointer;
-            width: 345px;
             border-radius: 4px;
             font-weight: 550;
-            text-rendering: optimizeLegibility;
-            color-scheme: dark;
             height: 40px;
+            width: 100%;
         }
-
-        .content button:hover{
+    
+        button:hover {
             opacity: 0.9;
         }
-        .content input{
+    
+        .content input {
             background-color: #f4f4f4;
             border: none;
             color: rgb(44, 44, 44);
-            width: 341px;
-            text-indent: 14px;
+            padding: 0 14px;
             border-radius: 4px;
-            font-weight: 400;
-            text-rendering: optimizeLegibility;
-            /* color-scheme: dark; */
             height: 40px;
+            width: 100%;
         }
-
-        .content input:focus{
-           outline: 1px solid rgba(193, 193, 193, 0.811);
+    
+        .content input:focus {
+            outline: 1px solid rgba(193, 193, 193, 0.811);
         }
-
-        .content h2{
+    
+        .content h2 {
             color: rgba(19, 19, 19, 0.881);
             font-weight: bold;
-            font-family:Arial, Helvetica, sans-serif;
-            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 30px;
+            margin: 0 auto 20px;
+            text-align: center;
         }
-
-        .content label{
+    
+        .content label {
             color: rgba(19, 19, 19, 0.881);
             font-weight: 400;
-            font-family:Arial, Helvetica, sans-serif;
-            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 14px;
+            text-align: left;
+            max-width: 345px;
+            width: 100%;
+            margin: 0 auto 8px;
         }
-        .content a{
+    
+        .content a {
             color: rgba(19, 19, 19, 0.556);
             text-underline-offset: 4px;
             font-size: 14px;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            max-width: 345px;
+            margin: 15px auto 0;
         }
-
+    
         .fas.fa-info-circle {
             margin-left: 5px;
             cursor: pointer;
         }
-
+    
         .separator {
-      text-align: center;
-      position: relative;
-      margin: 20px 0;
-    }
-
-    .separator::before,
-    .separator::after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      width: 45%;
-      border-bottom: 2px solid rgba(160, 160, 160, 0.345);
-      z-index: 1;
-    }
-
-    .separator::before {
-      left: 0;
-    }
-
-    .separator::after {
-      right: 0;
-    }
-
-    .separator span {
-      position: relative;
-      display: inline-block;
-      padding: 0 10px;
-      color: rgba(65, 65, 65, 0.625);
-      font-family: Arial, Helvetica, sans-serif;
-      background: rgba(255, 255, 255, 0);
-      z-index: 2;
-    }
-    .content .w-button{
-        color: rgba(0, 0, 0, 0.666);
-        background-color: #f4f4f4;
-    }
-    .info {
-    background-color: rgb(251, 251, 251);
-    width: 360px;
-    padding: 10px;
-    color: rgba(72, 72, 72, 0.582);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 20px; /* Adjust this value to position the info box as needed */
-    left: 500%;
-    font-weight: bold;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-.info-container {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-button:disabled {
+            text-align: center;
+            position: relative;
+            margin: 20px 0;
+            max-width: 345px;
+            width: 100%;
+            margin: 20px auto;
+        }
+    
+        .separator::before,
+        .separator::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 45%;
+            border-bottom: 2px solid rgba(160, 160, 160, 0.345);
+            z-index: 1;
+        }
+    
+        .separator::before {
+            left: 0;
+        }
+    
+        .separator::after {
+            right: 0;
+        }
+    
+        .separator span {
+            position: relative;
+            display: inline-block;
+            padding: 0 10px;
+            color: rgba(65, 65, 65, 0.625);
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgba(255, 255, 255, 0);
+            z-index: 2;
+        }
+    
+        .content .w-button {
+            color: rgba(0, 0, 0, 0.666);
+            background-color: #f4f4f4;
+        }
+    
+        .info {
+            background-color: rgb(251, 251, 251);
+            width: 360px;
+            padding: 10px;
+            color: rgba(72, 72, 72, 0.582);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 20px;
+            left: 500%;
+            font-weight: bold;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+    
+        .info-container {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+    
+        button:disabled {
             background-color: #a0b4f4;
-            border-color: #b0b0b0;
             color: #ffffffc3;
             cursor: not-allowed;
-  
         }
-
-        
+    
         .hidden {
             display: none;
         }
-
+    
         .integer-part {
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.5rem;
-    color: #333;
-}
-
-.decimal-part {
-    font-size: 2.5rem;
-    color: #777;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-@media (max-width: 480px) {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3.5rem;
+            color: #333;
+        }
+    
+        .decimal-part {
+            font-size: 2.5rem;
+            color: #777;
+            text-align: center;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        @media (max-width: 480px) {
             .form {
-                padding: 10px;
+                padding: 15px;
+                width: 100%;
             }
-
+    
             .content h2 {
                 font-size: 24px;
             }
-
+    
             .content label, .content a {
                 font-size: 13px;
             }
-
+    
             .integer-part {
                 font-size: 2rem;
             }
-
+    
             .decimal-part {
                 font-size: 1.2rem;
             }
-
+    
             .separator::before,
             .separator::after {
                 width: 40%;
             }
+    
+            .info {
+                width: 90%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
         }
-
+    
         @media (min-width: 768px) {
             .integer-part {
                 font-size: 3.5rem;
