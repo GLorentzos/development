@@ -42,7 +42,6 @@
       .content label, .content input, .content button, .content a {
         margin: 0 auto 15px;
         width: 100%;
-        max-width: 645px;
         box-sizing: border-box;
       }
 
@@ -55,6 +54,7 @@
         font-weight: 550;
         height: 40px;
         width: 100%;
+        font-size: 16px; /* Matching font size */
       }
 
       button:hover {
@@ -69,6 +69,7 @@
         border-radius: 4px;
         height: 40px;
         width: 100%;
+        font-size: 16px; /* Matching font size */
       }
 
       .content input:focus {
@@ -201,9 +202,11 @@
 
       /* Mobile responsiveness for the birthday input and label */
       @media (max-width: 600px) {
-        .content label, .content input {
-          display: block;
-          width: 100%;
+        .content input, .content button {
+          font-size: 18px; /* Larger font size */
+          padding: 0 20px; /* Increased padding for better touch experience */
+          height: 50px; /* Increased height for both input and button */
+          width: 100%; /* Ensures they take up full width */
         }
       }
     </style>
